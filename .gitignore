@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Models
+bert-finetuned-relations
+bert-relations
+
+.env
+
+.DS_Store
+*/.DS_Store

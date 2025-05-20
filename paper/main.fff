@@ -1,0 +1,18 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h]
+  \caption{Two images side by side}
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{cf-pretrained.png}
+    \label{fig:imageA}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{cf-pretrained.png}
+    \label{fig:imageB}
+  \end{subfigure}
+  \label{fig:sidebyside}
+\end{figure*}

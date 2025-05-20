@@ -1,0 +1,1963 @@
+digraph {
+	graph [size="264.15,264.15"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	6306600336 [label="
+ (1, 8, 768)" fillcolor=darkolivegreen1]
+	6306649472 [label=NativeLayerNormBackward0]
+	6306649856 -> 6306649472
+	6306649856 [label=AddBackward0]
+	6306649664 -> 6306649856
+	6306649664 [label=ViewBackward0]
+	6306648608 -> 6306649664
+	6306648608 [label=AddmmBackward0]
+	6306648704 -> 6306648608
+	13286494832 [label="encoder.layer.11.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286494832 -> 6306648704
+	6306648704 [label=AccumulateGrad]
+	6306648656 -> 6306648608
+	6306648656 [label=ViewBackward0]
+	6306648800 -> 6306648656
+	6306648800 [label=GeluBackward0]
+	6306649088 -> 6306648800
+	6306649088 [label=ViewBackward0]
+	6306648560 -> 6306649088
+	6306648560 [label=AddmmBackward0]
+	6306648464 -> 6306648560
+	13286494512 [label="encoder.layer.11.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286494512 -> 6306648464
+	6306648464 [label=AccumulateGrad]
+	6306648512 -> 6306648560
+	6306648512 [label=ViewBackward0]
+	6306649616 -> 6306648512
+	6306649616 [label=NativeLayerNormBackward0]
+	6306648176 -> 6306649616
+	6306648176 [label=AddBackward0]
+	6306648272 -> 6306648176
+	6306648272 [label=ViewBackward0]
+	4389543120 -> 6306648272
+	4389543120 [label=AddmmBackward0]
+	4389541488 -> 4389543120
+	13286411856 [label="encoder.layer.11.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286411856 -> 4389541488
+	4389541488 [label=AccumulateGrad]
+	4389541152 -> 4389543120
+	4389541152 [label=ViewBackward0]
+	4389543792 -> 4389541152
+	4389543792 [label=ViewBackward0]
+	4389539952 -> 4389543792
+	4389539952 [label=TransposeBackward0]
+	4389541440 -> 4389539952
+	4389541440 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306397008 -> 4389541440
+	6306397008 [label=PermuteBackward0]
+	6306398064 -> 6306397008
+	6306398064 [label=ViewBackward0]
+	6306397824 -> 6306398064
+	6306397824 [label=ViewBackward0]
+	6306397920 -> 6306397824
+	6306397920 [label=AddmmBackward0]
+	6306397680 -> 6306397920
+	13292733280 [label="encoder.layer.11.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13292733280 -> 6306397680
+	6306397680 [label=AccumulateGrad]
+	6306397104 -> 6306397920
+	6306397104 [label=ViewBackward0]
+	4389542016 -> 6306397104
+	4389542016 [label=NativeLayerNormBackward0]
+	6306397056 -> 4389542016
+	6306397056 [label=AddBackward0]
+	13286460336 -> 6306397056
+	13286460336 [label=ViewBackward0]
+	13260873536 -> 13286460336
+	13260873536 [label=AddmmBackward0]
+	13260873488 -> 13260873536
+	13286411536 [label="encoder.layer.10.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286411536 -> 13260873488
+	13260873488 [label=AccumulateGrad]
+	13260873008 -> 13260873536
+	13260873008 [label=ViewBackward0]
+	4768574672 -> 13260873008
+	4768574672 [label=GeluBackward0]
+	13261006688 -> 4768574672
+	13261006688 [label=ViewBackward0]
+	13261007888 -> 13261006688
+	13261007888 [label=AddmmBackward0]
+	13261008704 -> 13261007888
+	13286411216 [label="encoder.layer.10.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286411216 -> 13261008704
+	13261008704 [label=AccumulateGrad]
+	13261006016 -> 13261007888
+	13261006016 [label=ViewBackward0]
+	13286460960 -> 13261006016
+	13286460960 [label=NativeLayerNormBackward0]
+	13261008848 -> 13286460960
+	13261008848 [label=AddBackward0]
+	13261008080 -> 13261008848
+	13261008080 [label=ViewBackward0]
+	13261005344 -> 13261008080
+	13261005344 [label=AddmmBackward0]
+	13261006112 -> 13261005344
+	13286410576 [label="encoder.layer.10.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286410576 -> 13261006112
+	13261006112 [label=AccumulateGrad]
+	13261005920 -> 13261005344
+	13261005920 [label=ViewBackward0]
+	13261007840 -> 13261005920
+	13261007840 [label=ViewBackward0]
+	6306685136 -> 13261007840
+	6306685136 [label=TransposeBackward0]
+	6306685232 -> 6306685136
+	6306685232 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306685328 -> 6306685232
+	6306685328 [label=PermuteBackward0]
+	6306685520 -> 6306685328
+	6306685520 [label=ViewBackward0]
+	6306685616 -> 6306685520
+	6306685616 [label=ViewBackward0]
+	6306685712 -> 6306685616
+	6306685712 [label=AddmmBackward0]
+	6306685808 -> 6306685712
+	13286410896 [label="encoder.layer.10.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286410896 -> 6306685808
+	6306685808 [label=AccumulateGrad]
+	6306685760 -> 6306685712
+	6306685760 [label=ViewBackward0]
+	13261006784 -> 6306685760
+	13261006784 [label=NativeLayerNormBackward0]
+	6306686048 -> 13261006784
+	6306686048 [label=AddBackward0]
+	6306686240 -> 6306686048
+	6306686240 [label=ViewBackward0]
+	6306686384 -> 6306686240
+	6306686384 [label=AddmmBackward0]
+	6306686480 -> 6306686384
+	13286431536 [label="encoder.layer.9.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286431536 -> 6306686480
+	6306686480 [label=AccumulateGrad]
+	6306686432 -> 6306686384
+	6306686432 [label=ViewBackward0]
+	6306686576 -> 6306686432
+	6306686576 [label=GeluBackward0]
+	6306686768 -> 6306686576
+	6306686768 [label=ViewBackward0]
+	6306686864 -> 6306686768
+	6306686864 [label=AddmmBackward0]
+	6306686960 -> 6306686864
+	13286431216 [label="encoder.layer.9.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286431216 -> 6306686960
+	6306686960 [label=AccumulateGrad]
+	6306686912 -> 6306686864
+	6306686912 [label=ViewBackward0]
+	6306686192 -> 6306686912
+	6306686192 [label=NativeLayerNormBackward0]
+	6306687200 -> 6306686192
+	6306687200 [label=AddBackward0]
+	6306687392 -> 6306687200
+	6306687392 [label=ViewBackward0]
+	6306687536 -> 6306687392
+	6306687536 [label=AddmmBackward0]
+	6306687632 -> 6306687536
+	13286430576 [label="encoder.layer.9.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286430576 -> 6306687632
+	6306687632 [label=AccumulateGrad]
+	6306687584 -> 6306687536
+	6306687584 [label=ViewBackward0]
+	6306687728 -> 6306687584
+	6306687728 [label=ViewBackward0]
+	6306687920 -> 6306687728
+	6306687920 [label=TransposeBackward0]
+	6306688016 -> 6306687920
+	6306688016 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306688112 -> 6306688016
+	6306688112 [label=PermuteBackward0]
+	6306688304 -> 6306688112
+	6306688304 [label=ViewBackward0]
+	6306688400 -> 6306688304
+	6306688400 [label=ViewBackward0]
+	6306688496 -> 6306688400
+	6306688496 [label=AddmmBackward0]
+	6306688592 -> 6306688496
+	13286430896 [label="encoder.layer.9.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286430896 -> 6306688592
+	6306688592 [label=AccumulateGrad]
+	6306688544 -> 6306688496
+	6306688544 [label=ViewBackward0]
+	6306687344 -> 6306688544
+	6306687344 [label=NativeLayerNormBackward0]
+	6306688832 -> 6306687344
+	6306688832 [label=AddBackward0]
+	6306688976 -> 6306688832
+	6306688976 [label=ViewBackward0]
+	6306679344 -> 6306688976
+	6306679344 [label=AddmmBackward0]
+	6306676944 -> 6306679344
+	13286430256 [label="encoder.layer.8.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286430256 -> 6306676944
+	6306676944 [label=AccumulateGrad]
+	6306679392 -> 6306679344
+	6306679392 [label=ViewBackward0]
+	6306677040 -> 6306679392
+	6306677040 [label=GeluBackward0]
+	6306677232 -> 6306677040
+	6306677232 [label=ViewBackward0]
+	6306677328 -> 6306677232
+	6306677328 [label=AddmmBackward0]
+	6306677424 -> 6306677328
+	13286429936 [label="encoder.layer.8.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286429936 -> 6306677424
+	6306677424 [label=AccumulateGrad]
+	6306677376 -> 6306677328
+	6306677376 [label=ViewBackward0]
+	6306688928 -> 6306677376
+	6306688928 [label=NativeLayerNormBackward0]
+	6306677664 -> 6306688928
+	6306677664 [label=AddBackward0]
+	6306677856 -> 6306677664
+	6306677856 [label=ViewBackward0]
+	6306678000 -> 6306677856
+	6306678000 [label=AddmmBackward0]
+	6306678096 -> 6306678000
+	13286429296 [label="encoder.layer.8.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286429296 -> 6306678096
+	6306678096 [label=AccumulateGrad]
+	6306678048 -> 6306678000
+	6306678048 [label=ViewBackward0]
+	6306678192 -> 6306678048
+	6306678192 [label=ViewBackward0]
+	6306678384 -> 6306678192
+	6306678384 [label=TransposeBackward0]
+	6306678480 -> 6306678384
+	6306678480 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306678576 -> 6306678480
+	6306678576 [label=PermuteBackward0]
+	6306678768 -> 6306678576
+	6306678768 [label=ViewBackward0]
+	6306678864 -> 6306678768
+	6306678864 [label=ViewBackward0]
+	6306678960 -> 6306678864
+	6306678960 [label=AddmmBackward0]
+	6306679056 -> 6306678960
+	13286429616 [label="encoder.layer.8.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286429616 -> 6306679056
+	6306679056 [label=AccumulateGrad]
+	6306679008 -> 6306678960
+	6306679008 [label=ViewBackward0]
+	6306677808 -> 6306679008
+	6306677808 [label=NativeLayerNormBackward0]
+	6306679296 -> 6306677808
+	6306679296 [label=AddBackward0]
+	6306679584 -> 6306679296
+	6306679584 [label=ViewBackward0]
+	6306680016 -> 6306679584
+	6306680016 [label=AddmmBackward0]
+	6306679728 -> 6306680016
+	13286428976 [label="encoder.layer.7.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286428976 -> 6306679728
+	6306679728 [label=AccumulateGrad]
+	6306680064 -> 6306680016
+	6306680064 [label=ViewBackward0]
+	6306679824 -> 6306680064
+	6306679824 [label=GeluBackward0]
+	6306680112 -> 6306679824
+	6306680112 [label=ViewBackward0]
+	6306680208 -> 6306680112
+	6306680208 [label=AddmmBackward0]
+	6306680304 -> 6306680208
+	13286571520 [label="encoder.layer.7.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286571520 -> 6306680304
+	6306680304 [label=AccumulateGrad]
+	6306680256 -> 6306680208
+	6306680256 [label=ViewBackward0]
+	6306679536 -> 6306680256
+	6306679536 [label=NativeLayerNormBackward0]
+	6306680544 -> 6306679536
+	6306680544 [label=AddBackward0]
+	6306680736 -> 6306680544
+	6306680736 [label=ViewBackward0]
+	6306680784 -> 6306680736
+	6306680784 [label=AddmmBackward0]
+	6306693328 -> 6306680784
+	13286341904 [label="encoder.layer.7.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286341904 -> 6306693328
+	6306693328 [label=AccumulateGrad]
+	6306693280 -> 6306680784
+	6306693280 [label=ViewBackward0]
+	6306693424 -> 6306693280
+	6306693424 [label=ViewBackward0]
+	6306693616 -> 6306693424
+	6306693616 [label=TransposeBackward0]
+	6306693712 -> 6306693616
+	6306693712 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306693808 -> 6306693712
+	6306693808 [label=PermuteBackward0]
+	6306694000 -> 6306693808
+	6306694000 [label=ViewBackward0]
+	6306694096 -> 6306694000
+	6306694096 [label=ViewBackward0]
+	6306694192 -> 6306694096
+	6306694192 [label=AddmmBackward0]
+	6306694288 -> 6306694192
+	13286342224 [label="encoder.layer.7.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286342224 -> 6306694288
+	6306694288 [label=AccumulateGrad]
+	6306694240 -> 6306694192
+	6306694240 [label=ViewBackward0]
+	6306680688 -> 6306694240
+	6306680688 [label=NativeLayerNormBackward0]
+	6306694528 -> 6306680688
+	6306694528 [label=AddBackward0]
+	6306694720 -> 6306694528
+	6306694720 [label=ViewBackward0]
+	6306694864 -> 6306694720
+	6306694864 [label=AddmmBackward0]
+	6306694960 -> 6306694864
+	13286341584 [label="encoder.layer.6.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286341584 -> 6306694960
+	6306694960 [label=AccumulateGrad]
+	6306694912 -> 6306694864
+	6306694912 [label=ViewBackward0]
+	6306695056 -> 6306694912
+	6306695056 [label=GeluBackward0]
+	6306695248 -> 6306695056
+	6306695248 [label=ViewBackward0]
+	6306695344 -> 6306695248
+	6306695344 [label=AddmmBackward0]
+	6306695440 -> 6306695344
+	13286341264 [label="encoder.layer.6.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286341264 -> 6306695440
+	6306695440 [label=AccumulateGrad]
+	6306695392 -> 6306695344
+	6306695392 [label=ViewBackward0]
+	6306694672 -> 6306695392
+	6306694672 [label=NativeLayerNormBackward0]
+	6306695680 -> 6306694672
+	6306695680 [label=AddBackward0]
+	6306695872 -> 6306695680
+	6306695872 [label=ViewBackward0]
+	6306696016 -> 6306695872
+	6306696016 [label=AddmmBackward0]
+	6306696112 -> 6306696016
+	13286340624 [label="encoder.layer.6.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286340624 -> 6306696112
+	6306696112 [label=AccumulateGrad]
+	6306696064 -> 6306696016
+	6306696064 [label=ViewBackward0]
+	6306696208 -> 6306696064
+	6306696208 [label=ViewBackward0]
+	6306696400 -> 6306696208
+	6306696400 [label=TransposeBackward0]
+	6306696496 -> 6306696400
+	6306696496 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306696592 -> 6306696496
+	6306696592 [label=PermuteBackward0]
+	6306696784 -> 6306696592
+	6306696784 [label=ViewBackward0]
+	6306696880 -> 6306696784
+	6306696880 [label=ViewBackward0]
+	6306696976 -> 6306696880
+	6306696976 [label=AddmmBackward0]
+	6306697072 -> 6306696976
+	13286340944 [label="encoder.layer.6.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286340944 -> 6306697072
+	6306697072 [label=AccumulateGrad]
+	6306697024 -> 6306696976
+	6306697024 [label=ViewBackward0]
+	6306695824 -> 6306697024
+	6306695824 [label=NativeLayerNormBackward0]
+	6306705568 -> 6306695824
+	6306705568 [label=AddBackward0]
+	6306705760 -> 6306705568
+	6306705760 [label=ViewBackward0]
+	6306705904 -> 6306705760
+	6306705904 [label=AddmmBackward0]
+	6306706000 -> 6306705904
+	13286340304 [label="encoder.layer.5.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286340304 -> 6306706000
+	6306706000 [label=AccumulateGrad]
+	6306705952 -> 6306705904
+	6306705952 [label=ViewBackward0]
+	6306706096 -> 6306705952
+	6306706096 [label=GeluBackward0]
+	6306706288 -> 6306706096
+	6306706288 [label=ViewBackward0]
+	6306706384 -> 6306706288
+	6306706384 [label=AddmmBackward0]
+	6306706480 -> 6306706384
+	13286339984 [label="encoder.layer.5.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286339984 -> 6306706480
+	6306706480 [label=AccumulateGrad]
+	6306706432 -> 6306706384
+	6306706432 [label=ViewBackward0]
+	6306705712 -> 6306706432
+	6306705712 [label=NativeLayerNormBackward0]
+	6306706720 -> 6306705712
+	6306706720 [label=AddBackward0]
+	6306706912 -> 6306706720
+	6306706912 [label=ViewBackward0]
+	6306707056 -> 6306706912
+	6306707056 [label=AddmmBackward0]
+	6306707152 -> 6306707056
+	13286339344 [label="encoder.layer.5.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286339344 -> 6306707152
+	6306707152 [label=AccumulateGrad]
+	6306707104 -> 6306707056
+	6306707104 [label=ViewBackward0]
+	6306707248 -> 6306707104
+	6306707248 [label=ViewBackward0]
+	6306707440 -> 6306707248
+	6306707440 [label=TransposeBackward0]
+	6306707536 -> 6306707440
+	6306707536 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306707632 -> 6306707536
+	6306707632 [label=PermuteBackward0]
+	6306707824 -> 6306707632
+	6306707824 [label=ViewBackward0]
+	6306707920 -> 6306707824
+	6306707920 [label=ViewBackward0]
+	6306708016 -> 6306707920
+	6306708016 [label=AddmmBackward0]
+	6306708112 -> 6306708016
+	13286339664 [label="encoder.layer.5.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286339664 -> 6306708112
+	6306708112 [label=AccumulateGrad]
+	6306708064 -> 6306708016
+	6306708064 [label=ViewBackward0]
+	6306706864 -> 6306708064
+	6306706864 [label=NativeLayerNormBackward0]
+	6306708352 -> 6306706864
+	6306708352 [label=AddBackward0]
+	6306708544 -> 6306708352
+	6306708544 [label=ViewBackward0]
+	6306708688 -> 6306708544
+	6306708688 [label=AddmmBackward0]
+	6306708784 -> 6306708688
+	13286339024 [label="encoder.layer.4.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286339024 -> 6306708784
+	6306708784 [label=AccumulateGrad]
+	6306708736 -> 6306708688
+	6306708736 [label=ViewBackward0]
+	6306708880 -> 6306708736
+	6306708880 [label=GeluBackward0]
+	6306709072 -> 6306708880
+	6306709072 [label=ViewBackward0]
+	6306709168 -> 6306709072
+	6306709168 [label=AddmmBackward0]
+	6306709264 -> 6306709168
+	13286338704 [label="encoder.layer.4.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286338704 -> 6306709264
+	6306709264 [label=AccumulateGrad]
+	6306709216 -> 6306709168
+	6306709216 [label=ViewBackward0]
+	6306708496 -> 6306709216
+	6306708496 [label=NativeLayerNormBackward0]
+	6306709456 -> 6306708496
+	6306709456 [label=AddBackward0]
+	6306713856 -> 6306709456
+	6306713856 [label=ViewBackward0]
+	6306714000 -> 6306713856
+	6306714000 [label=AddmmBackward0]
+	6306714096 -> 6306714000
+	13286497712 [label="encoder.layer.4.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286497712 -> 6306714096
+	6306714096 [label=AccumulateGrad]
+	6306714048 -> 6306714000
+	6306714048 [label=ViewBackward0]
+	6306714192 -> 6306714048
+	6306714192 [label=ViewBackward0]
+	6306714384 -> 6306714192
+	6306714384 [label=TransposeBackward0]
+	6306714480 -> 6306714384
+	6306714480 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306714576 -> 6306714480
+	6306714576 [label=PermuteBackward0]
+	6306714768 -> 6306714576
+	6306714768 [label=ViewBackward0]
+	6306714864 -> 6306714768
+	6306714864 [label=ViewBackward0]
+	6306714960 -> 6306714864
+	6306714960 [label=AddmmBackward0]
+	6306715056 -> 6306714960
+	13286498032 [label="encoder.layer.4.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286498032 -> 6306715056
+	6306715056 [label=AccumulateGrad]
+	6306715008 -> 6306714960
+	6306715008 [label=ViewBackward0]
+	6306713808 -> 6306715008
+	6306713808 [label=NativeLayerNormBackward0]
+	6306715296 -> 6306713808
+	6306715296 [label=AddBackward0]
+	6306715488 -> 6306715296
+	6306715488 [label=ViewBackward0]
+	6306715632 -> 6306715488
+	6306715632 [label=AddmmBackward0]
+	6306715728 -> 6306715632
+	13286497392 [label="encoder.layer.3.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286497392 -> 6306715728
+	6306715728 [label=AccumulateGrad]
+	6306715680 -> 6306715632
+	6306715680 [label=ViewBackward0]
+	6306715824 -> 6306715680
+	6306715824 [label=GeluBackward0]
+	6306716016 -> 6306715824
+	6306716016 [label=ViewBackward0]
+	6306716112 -> 6306716016
+	6306716112 [label=AddmmBackward0]
+	6306716208 -> 6306716112
+	13286497072 [label="encoder.layer.3.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286497072 -> 6306716208
+	6306716208 [label=AccumulateGrad]
+	6306716160 -> 6306716112
+	6306716160 [label=ViewBackward0]
+	6306715440 -> 6306716160
+	6306715440 [label=NativeLayerNormBackward0]
+	6306716448 -> 6306715440
+	6306716448 [label=AddBackward0]
+	6306716640 -> 6306716448
+	6306716640 [label=ViewBackward0]
+	6306716784 -> 6306716640
+	6306716784 [label=AddmmBackward0]
+	6306716880 -> 6306716784
+	13286496432 [label="encoder.layer.3.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286496432 -> 6306716880
+	6306716880 [label=AccumulateGrad]
+	6306716832 -> 6306716784
+	6306716832 [label=ViewBackward0]
+	6306716976 -> 6306716832
+	6306716976 [label=ViewBackward0]
+	6306717168 -> 6306716976
+	6306717168 [label=TransposeBackward0]
+	6306717264 -> 6306717168
+	6306717264 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306717360 -> 6306717264
+	6306717360 [label=PermuteBackward0]
+	6306717552 -> 6306717360
+	6306717552 [label=ViewBackward0]
+	6306717648 -> 6306717552
+	6306717648 [label=ViewBackward0]
+	6306717456 -> 6306717648
+	6306717456 [label=AddmmBackward0]
+	6306726096 -> 6306717456
+	13286496752 [label="encoder.layer.3.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286496752 -> 6306726096
+	6306726096 [label=AccumulateGrad]
+	6306726048 -> 6306717456
+	6306726048 [label=ViewBackward0]
+	6306716592 -> 6306726048
+	6306716592 [label=NativeLayerNormBackward0]
+	6306726336 -> 6306716592
+	6306726336 [label=AddBackward0]
+	6306726528 -> 6306726336
+	6306726528 [label=ViewBackward0]
+	6306726672 -> 6306726528
+	6306726672 [label=AddmmBackward0]
+	6306726768 -> 6306726672
+	13286496112 [label="encoder.layer.2.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286496112 -> 6306726768
+	6306726768 [label=AccumulateGrad]
+	6306726720 -> 6306726672
+	6306726720 [label=ViewBackward0]
+	6306726864 -> 6306726720
+	6306726864 [label=GeluBackward0]
+	6306727056 -> 6306726864
+	6306727056 [label=ViewBackward0]
+	6306727152 -> 6306727056
+	6306727152 [label=AddmmBackward0]
+	6306727248 -> 6306727152
+	13286495792 [label="encoder.layer.2.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286495792 -> 6306727248
+	6306727248 [label=AccumulateGrad]
+	6306727200 -> 6306727152
+	6306727200 [label=ViewBackward0]
+	6306726480 -> 6306727200
+	6306726480 [label=NativeLayerNormBackward0]
+	6306727488 -> 6306726480
+	6306727488 [label=AddBackward0]
+	6306727680 -> 6306727488
+	6306727680 [label=ViewBackward0]
+	6306727824 -> 6306727680
+	6306727824 [label=AddmmBackward0]
+	6306727920 -> 6306727824
+	13286495152 [label="encoder.layer.2.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286495152 -> 6306727920
+	6306727920 [label=AccumulateGrad]
+	6306727872 -> 6306727824
+	6306727872 [label=ViewBackward0]
+	6306728016 -> 6306727872
+	6306728016 [label=ViewBackward0]
+	6306728208 -> 6306728016
+	6306728208 [label=TransposeBackward0]
+	6306728304 -> 6306728208
+	6306728304 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306728400 -> 6306728304
+	6306728400 [label=PermuteBackward0]
+	6306728592 -> 6306728400
+	6306728592 [label=ViewBackward0]
+	6306728688 -> 6306728592
+	6306728688 [label=ViewBackward0]
+	6306728784 -> 6306728688
+	6306728784 [label=AddmmBackward0]
+	6306728880 -> 6306728784
+	13286495472 [label="encoder.layer.2.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286495472 -> 6306728880
+	6306728880 [label=AccumulateGrad]
+	6306728832 -> 6306728784
+	6306728832 [label=ViewBackward0]
+	6306727632 -> 6306728832
+	6306727632 [label=NativeLayerNormBackward0]
+	6306729120 -> 6306727632
+	6306729120 [label=AddBackward0]
+	6306729312 -> 6306729120
+	6306729312 [label=ViewBackward0]
+	6306729456 -> 6306729312
+	6306729456 [label=AddmmBackward0]
+	6306729552 -> 6306729456
+	13286410256 [label="encoder.layer.1.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286410256 -> 6306729552
+	6306729552 [label=AccumulateGrad]
+	6306729504 -> 6306729456
+	6306729504 [label=ViewBackward0]
+	6306729648 -> 6306729504
+	6306729648 [label=GeluBackward0]
+	6306729840 -> 6306729648
+	6306729840 [label=ViewBackward0]
+	6306729936 -> 6306729840
+	6306729936 [label=AddmmBackward0]
+	6306729744 -> 6306729936
+	13286409936 [label="encoder.layer.1.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286409936 -> 6306729744
+	6306729744 [label=AccumulateGrad]
+	6306738288 -> 6306729936
+	6306738288 [label=ViewBackward0]
+	6306729264 -> 6306738288
+	6306729264 [label=NativeLayerNormBackward0]
+	6306738528 -> 6306729264
+	6306738528 [label=AddBackward0]
+	6306738720 -> 6306738528
+	6306738720 [label=ViewBackward0]
+	6306738864 -> 6306738720
+	6306738864 [label=AddmmBackward0]
+	6306738960 -> 6306738864
+	13286409296 [label="encoder.layer.1.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286409296 -> 6306738960
+	6306738960 [label=AccumulateGrad]
+	6306738912 -> 6306738864
+	6306738912 [label=ViewBackward0]
+	6306739056 -> 6306738912
+	6306739056 [label=ViewBackward0]
+	6306739248 -> 6306739056
+	6306739248 [label=TransposeBackward0]
+	6306739344 -> 6306739248
+	6306739344 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306739440 -> 6306739344
+	6306739440 [label=PermuteBackward0]
+	6306739632 -> 6306739440
+	6306739632 [label=ViewBackward0]
+	6306739728 -> 6306739632
+	6306739728 [label=ViewBackward0]
+	6306739824 -> 6306739728
+	6306739824 [label=AddmmBackward0]
+	6306739920 -> 6306739824
+	13286409616 [label="encoder.layer.1.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286409616 -> 6306739920
+	6306739920 [label=AccumulateGrad]
+	6306739872 -> 6306739824
+	6306739872 [label=ViewBackward0]
+	6306738672 -> 6306739872
+	6306738672 [label=NativeLayerNormBackward0]
+	6306740160 -> 6306738672
+	6306740160 [label=AddBackward0]
+	6306740352 -> 6306740160
+	6306740352 [label=ViewBackward0]
+	6306740496 -> 6306740352
+	6306740496 [label=AddmmBackward0]
+	6306740592 -> 6306740496
+	13286408976 [label="encoder.layer.0.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286408976 -> 6306740592
+	6306740592 [label=AccumulateGrad]
+	6306740544 -> 6306740496
+	6306740544 [label=ViewBackward0]
+	6306740688 -> 6306740544
+	6306740688 [label=GeluBackward0]
+	6306740880 -> 6306740688
+	6306740880 [label=ViewBackward0]
+	6306740976 -> 6306740880
+	6306740976 [label=AddmmBackward0]
+	6306741072 -> 6306740976
+	13286408656 [label="encoder.layer.0.intermediate.dense.bias
+ (3072)" fillcolor=lightblue]
+	13286408656 -> 6306741072
+	6306741072 [label=AccumulateGrad]
+	6306741024 -> 6306740976
+	6306741024 [label=ViewBackward0]
+	6306740304 -> 6306741024
+	6306740304 [label=NativeLayerNormBackward0]
+	6306741312 -> 6306740304
+	6306741312 [label=AddBackward0]
+	6306741504 -> 6306741312
+	6306741504 [label=ViewBackward0]
+	6306741648 -> 6306741504
+	6306741648 [label=AddmmBackward0]
+	6306741744 -> 6306741648
+	13286489040 [label="encoder.layer.0.attention.output.dense.bias
+ (768)" fillcolor=lightblue]
+	13286489040 -> 6306741744
+	6306741744 [label=AccumulateGrad]
+	6306741696 -> 6306741648
+	6306741696 [label=ViewBackward0]
+	6306741840 -> 6306741696
+	6306741840 [label=ViewBackward0]
+	6306742032 -> 6306741840
+	6306742032 [label=TransposeBackward0]
+	6306742128 -> 6306742032
+	6306742128 [label=ScaledDotProductFlashAttentionForCpuBackward0]
+	6306742224 -> 6306742128
+	6306742224 [label=PermuteBackward0]
+	6306750672 -> 6306742224
+	6306750672 [label=ViewBackward0]
+	6306750768 -> 6306750672
+	6306750768 [label=ViewBackward0]
+	6306750864 -> 6306750768
+	6306750864 [label=AddmmBackward0]
+	6306750960 -> 6306750864
+	13286408336 [label="encoder.layer.0.attention.self.query.bias
+ (768)" fillcolor=lightblue]
+	13286408336 -> 6306750960
+	6306750960 [label=AccumulateGrad]
+	6306750912 -> 6306750864
+	6306750912 [label=ViewBackward0]
+	6306741456 -> 6306750912
+	6306741456 [label=NativeLayerNormBackward0]
+	6306751200 -> 6306741456
+	6306751200 [label=AddBackward0]
+	6306751392 -> 6306751200
+	6306751392 [label=AddBackward0]
+	6306751536 -> 6306751392
+	6306751536 [label=EmbeddingBackward0]
+	6306751680 -> 6306751536
+	13286487040 [label="embeddings.word_embeddings.weight
+ (30522, 768)" fillcolor=lightblue]
+	13286487040 -> 6306751680
+	6306751680 [label=AccumulateGrad]
+	6306751488 -> 6306751392
+	6306751488 [label=EmbeddingBackward0]
+	6306751728 -> 6306751488
+	13286488560 [label="embeddings.token_type_embeddings.weight
+ (2, 768)" fillcolor=lightblue]
+	13286488560 -> 6306751728
+	6306751728 [label=AccumulateGrad]
+	6306751344 -> 6306751200
+	6306751344 [label=EmbeddingBackward0]
+	6306751824 -> 6306751344
+	13200433856 [label="embeddings.position_embeddings.weight
+ (512, 768)" fillcolor=lightblue]
+	13200433856 -> 6306751824
+	6306751824 [label=AccumulateGrad]
+	6306751152 -> 6306741456
+	13286310352 [label="embeddings.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286310352 -> 6306751152
+	6306751152 [label=AccumulateGrad]
+	6306751104 -> 6306741456
+	13286310832 [label="embeddings.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286310832 -> 6306751104
+	6306751104 [label=AccumulateGrad]
+	6306750576 -> 6306750864
+	6306750576 [label=TBackward0]
+	6306751296 -> 6306750576
+	13286408576 [label="encoder.layer.0.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286408576 -> 6306751296
+	6306751296 [label=AccumulateGrad]
+	6306742176 -> 6306742128
+	6306742176 [label=PermuteBackward0]
+	6306750816 -> 6306742176
+	6306750816 [label=ViewBackward0]
+	6306751248 -> 6306750816
+	6306751248 [label=ViewBackward0]
+	6306751776 -> 6306751248
+	6306751776 [label=AddmmBackward0]
+	6306751584 -> 6306751776
+	13286486320 [label="encoder.layer.0.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286486320 -> 6306751584
+	6306751584 [label=AccumulateGrad]
+	6306751056 -> 6306751776
+	6306751056 [label=ViewBackward0]
+	6306741456 -> 6306751056
+	6306750624 -> 6306751776
+	6306750624 [label=TBackward0]
+	6306751968 -> 6306750624
+	13200434336 [label="encoder.layer.0.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13200434336 -> 6306751968
+	6306751968 [label=AccumulateGrad]
+	6306741936 -> 6306742128
+	6306741936 [label=PermuteBackward0]
+	6306751632 -> 6306741936
+	6306751632 [label=ViewBackward0]
+	6306751920 -> 6306751632
+	6306751920 [label=ViewBackward0]
+	6306752016 -> 6306751920
+	6306752016 [label=AddmmBackward0]
+	6306752112 -> 6306752016
+	13286408496 [label="encoder.layer.0.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286408496 -> 6306752112
+	6306752112 [label=AccumulateGrad]
+	6306751872 -> 6306752016
+	6306751872 [label=ViewBackward0]
+	6306741456 -> 6306751872
+	6306750720 -> 6306752016
+	6306750720 [label=TBackward0]
+	6306752304 -> 6306750720
+	13286408736 [label="encoder.layer.0.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286408736 -> 6306752304
+	6306752304 [label=AccumulateGrad]
+	6306741552 -> 6306741648
+	6306741552 [label=TBackward0]
+	6306742080 -> 6306741552
+	13286487120 [label="encoder.layer.0.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286487120 -> 6306742080
+	6306742080 [label=AccumulateGrad]
+	6306741456 -> 6306741312
+	6306741264 -> 6306740304
+	13286486240 [label="encoder.layer.0.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286486240 -> 6306741264
+	6306741264 [label=AccumulateGrad]
+	6306741216 -> 6306740304
+	13286486400 [label="encoder.layer.0.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286486400 -> 6306741216
+	6306741216 [label=AccumulateGrad]
+	6306740784 -> 6306740976
+	6306740784 [label=TBackward0]
+	6306741408 -> 6306740784
+	13286408896 [label="encoder.layer.0.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286408896 -> 6306741408
+	6306741408 [label=AccumulateGrad]
+	6306740400 -> 6306740496
+	6306740400 [label=TBackward0]
+	6306740928 -> 6306740400
+	13286409216 [label="encoder.layer.0.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286409216 -> 6306740928
+	6306740928 [label=AccumulateGrad]
+	6306740304 -> 6306740160
+	6306740112 -> 6306738672
+	13286408416 [label="encoder.layer.0.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286408416 -> 6306740112
+	6306740112 [label=AccumulateGrad]
+	6306740064 -> 6306738672
+	13286408816 [label="encoder.layer.0.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286408816 -> 6306740064
+	6306740064 [label=AccumulateGrad]
+	6306739536 -> 6306739824
+	6306739536 [label=TBackward0]
+	6306740256 -> 6306739536
+	13286409856 [label="encoder.layer.1.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286409856 -> 6306740256
+	6306740256 [label=AccumulateGrad]
+	6306739392 -> 6306739344
+	6306739392 [label=PermuteBackward0]
+	6306739776 -> 6306739392
+	6306739776 [label=ViewBackward0]
+	6306740208 -> 6306739776
+	6306740208 [label=ViewBackward0]
+	6306740448 -> 6306740208
+	6306740448 [label=AddmmBackward0]
+	6306740832 -> 6306740448
+	13286409456 [label="encoder.layer.1.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286409456 -> 6306740832
+	6306740832 [label=AccumulateGrad]
+	6306740016 -> 6306740448
+	6306740016 [label=ViewBackward0]
+	6306738672 -> 6306740016
+	6306739584 -> 6306740448
+	6306739584 [label=TBackward0]
+	6306741792 -> 6306739584
+	13286409696 [label="encoder.layer.1.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286409696 -> 6306741792
+	6306741792 [label=AccumulateGrad]
+	6306739152 -> 6306739344
+	6306739152 [label=PermuteBackward0]
+	6306740640 -> 6306739152
+	6306740640 [label=ViewBackward0]
+	6306740736 -> 6306740640
+	6306740736 [label=ViewBackward0]
+	6306741600 -> 6306740736
+	6306741600 [label=AddmmBackward0]
+	6306741984 -> 6306741600
+	13286409776 [label="encoder.layer.1.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286409776 -> 6306741984
+	6306741984 [label=AccumulateGrad]
+	6306741120 -> 6306741600
+	6306741120 [label=ViewBackward0]
+	6306738672 -> 6306741120
+	6306739680 -> 6306741600
+	6306739680 [label=TBackward0]
+	6306751440 -> 6306739680
+	13286410016 [label="encoder.layer.1.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286410016 -> 6306751440
+	6306751440 [label=AccumulateGrad]
+	6306738768 -> 6306738864
+	6306738768 [label=TBackward0]
+	6306739296 -> 6306738768
+	13286409536 [label="encoder.layer.1.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286409536 -> 6306739296
+	6306739296 [label=AccumulateGrad]
+	6306738672 -> 6306738528
+	6306738480 -> 6306729264
+	13286409056 [label="encoder.layer.1.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286409056 -> 6306738480
+	6306738480 [label=AccumulateGrad]
+	6306738432 -> 6306729264
+	13286409136 [label="encoder.layer.1.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286409136 -> 6306738432
+	6306738432 [label=AccumulateGrad]
+	6306738240 -> 6306729936
+	6306738240 [label=TBackward0]
+	6306738624 -> 6306738240
+	13286410176 [label="encoder.layer.1.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286410176 -> 6306738624
+	6306738624 [label=AccumulateGrad]
+	6306729360 -> 6306729456
+	6306729360 [label=TBackward0]
+	6306729888 -> 6306729360
+	13286410496 [label="encoder.layer.1.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286410496 -> 6306729888
+	6306729888 [label=AccumulateGrad]
+	6306729264 -> 6306729120
+	6306729072 -> 6306727632
+	13286409376 [label="encoder.layer.1.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286409376 -> 6306729072
+	6306729072 [label=AccumulateGrad]
+	6306729024 -> 6306727632
+	13286410096 [label="encoder.layer.1.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286410096 -> 6306729024
+	6306729024 [label=AccumulateGrad]
+	6306728496 -> 6306728784
+	6306728496 [label=TBackward0]
+	6306729216 -> 6306728496
+	13286495712 [label="encoder.layer.2.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286495712 -> 6306729216
+	6306729216 [label=AccumulateGrad]
+	6306728352 -> 6306728304
+	6306728352 [label=PermuteBackward0]
+	6306728736 -> 6306728352
+	6306728736 [label=ViewBackward0]
+	6306729168 -> 6306728736
+	6306729168 [label=ViewBackward0]
+	6306729408 -> 6306729168
+	6306729408 [label=AddmmBackward0]
+	6306729792 -> 6306729408
+	13286495312 [label="encoder.layer.2.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286495312 -> 6306729792
+	6306729792 [label=AccumulateGrad]
+	6306728976 -> 6306729408
+	6306728976 [label=ViewBackward0]
+	6306727632 -> 6306728976
+	6306728544 -> 6306729408
+	6306728544 [label=TBackward0]
+	6306739008 -> 6306728544
+	13286495552 [label="encoder.layer.2.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286495552 -> 6306739008
+	6306739008 [label=AccumulateGrad]
+	6306728112 -> 6306728304
+	6306728112 [label=PermuteBackward0]
+	6306729600 -> 6306728112
+	6306729600 [label=ViewBackward0]
+	6306729696 -> 6306729600
+	6306729696 [label=ViewBackward0]
+	6306738816 -> 6306729696
+	6306738816 [label=AddmmBackward0]
+	6306739200 -> 6306738816
+	13286495632 [label="encoder.layer.2.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286495632 -> 6306739200
+	6306739200 [label=AccumulateGrad]
+	6306738576 -> 6306738816
+	6306738576 [label=ViewBackward0]
+	6306727632 -> 6306738576
+	6306738336 -> 6306738816
+	6306738336 [label=TBackward0]
+	6306741360 -> 6306738336
+	13286495872 [label="encoder.layer.2.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286495872 -> 6306741360
+	6306741360 [label=AccumulateGrad]
+	6306727728 -> 6306727824
+	6306727728 [label=TBackward0]
+	6306728256 -> 6306727728
+	13286495392 [label="encoder.layer.2.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286495392 -> 6306728256
+	6306728256 [label=AccumulateGrad]
+	6306727632 -> 6306727488
+	6306727440 -> 6306726480
+	13286494912 [label="encoder.layer.2.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286494912 -> 6306727440
+	6306727440 [label=AccumulateGrad]
+	6306727392 -> 6306726480
+	13286494992 [label="encoder.layer.2.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286494992 -> 6306727392
+	6306727392 [label=AccumulateGrad]
+	6306726960 -> 6306727152
+	6306726960 [label=TBackward0]
+	6306727584 -> 6306726960
+	13286496032 [label="encoder.layer.2.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286496032 -> 6306727584
+	6306727584 [label=AccumulateGrad]
+	6306726576 -> 6306726672
+	6306726576 [label=TBackward0]
+	6306727104 -> 6306726576
+	13286496352 [label="encoder.layer.2.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286496352 -> 6306727104
+	6306727104 [label=AccumulateGrad]
+	6306726480 -> 6306726336
+	6306726288 -> 6306716592
+	13286495232 [label="encoder.layer.2.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286495232 -> 6306726288
+	6306726288 [label=AccumulateGrad]
+	6306726240 -> 6306716592
+	13286495952 [label="encoder.layer.2.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286495952 -> 6306726240
+	6306726240 [label=AccumulateGrad]
+	6306725952 -> 6306717456
+	6306725952 [label=TBackward0]
+	6306726432 -> 6306725952
+	13286496992 [label="encoder.layer.3.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286496992 -> 6306726432
+	6306726432 [label=AccumulateGrad]
+	6306717312 -> 6306717264
+	6306717312 [label=PermuteBackward0]
+	6306717600 -> 6306717312
+	6306717600 [label=ViewBackward0]
+	6306726384 -> 6306717600
+	6306726384 [label=ViewBackward0]
+	6306726624 -> 6306726384
+	6306726624 [label=AddmmBackward0]
+	6306727008 -> 6306726624
+	13286496592 [label="encoder.layer.3.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286496592 -> 6306727008
+	6306727008 [label=AccumulateGrad]
+	6306726192 -> 6306726624
+	6306726192 [label=ViewBackward0]
+	6306716592 -> 6306726192
+	6306726000 -> 6306726624
+	6306726000 [label=TBackward0]
+	6306727968 -> 6306726000
+	13286496832 [label="encoder.layer.3.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286496832 -> 6306727968
+	6306727968 [label=AccumulateGrad]
+	6306717072 -> 6306717264
+	6306717072 [label=PermuteBackward0]
+	6306717504 -> 6306717072
+	6306717504 [label=ViewBackward0]
+	6306726912 -> 6306717504
+	6306726912 [label=ViewBackward0]
+	6306727776 -> 6306726912
+	6306727776 [label=AddmmBackward0]
+	6306728160 -> 6306727776
+	13286496912 [label="encoder.layer.3.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286496912 -> 6306728160
+	6306728160 [label=AccumulateGrad]
+	6306727296 -> 6306727776
+	6306727296 [label=ViewBackward0]
+	6306716592 -> 6306727296
+	6306726144 -> 6306727776
+	6306726144 [label=TBackward0]
+	6306728640 -> 6306726144
+	13286497152 [label="encoder.layer.3.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286497152 -> 6306728640
+	6306728640 [label=AccumulateGrad]
+	6306716688 -> 6306716784
+	6306716688 [label=TBackward0]
+	6306717216 -> 6306716688
+	13286496672 [label="encoder.layer.3.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286496672 -> 6306717216
+	6306717216 [label=AccumulateGrad]
+	6306716592 -> 6306716448
+	6306716400 -> 6306715440
+	13286496192 [label="encoder.layer.3.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286496192 -> 6306716400
+	6306716400 [label=AccumulateGrad]
+	6306716352 -> 6306715440
+	13286496272 [label="encoder.layer.3.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286496272 -> 6306716352
+	6306716352 [label=AccumulateGrad]
+	6306715920 -> 6306716112
+	6306715920 [label=TBackward0]
+	6306716544 -> 6306715920
+	13286497312 [label="encoder.layer.3.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286497312 -> 6306716544
+	6306716544 [label=AccumulateGrad]
+	6306715536 -> 6306715632
+	6306715536 [label=TBackward0]
+	6306716064 -> 6306715536
+	13286497632 [label="encoder.layer.3.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286497632 -> 6306716064
+	6306716064 [label=AccumulateGrad]
+	6306715440 -> 6306715296
+	6306715248 -> 6306713808
+	13286496512 [label="encoder.layer.3.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286496512 -> 6306715248
+	6306715248 [label=AccumulateGrad]
+	6306715200 -> 6306713808
+	13286497232 [label="encoder.layer.3.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286497232 -> 6306715200
+	6306715200 [label=AccumulateGrad]
+	6306714672 -> 6306714960
+	6306714672 [label=TBackward0]
+	6306715392 -> 6306714672
+	13286497792 [label="encoder.layer.4.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286497792 -> 6306715392
+	6306715392 [label=AccumulateGrad]
+	6306714528 -> 6306714480
+	6306714528 [label=PermuteBackward0]
+	6306714912 -> 6306714528
+	6306714912 [label=ViewBackward0]
+	6306715344 -> 6306714912
+	6306715344 [label=ViewBackward0]
+	6306715584 -> 6306715344
+	6306715584 [label=AddmmBackward0]
+	6306715968 -> 6306715584
+	13286497872 [label="encoder.layer.4.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286497872 -> 6306715968
+	6306715968 [label=AccumulateGrad]
+	6306715152 -> 6306715584
+	6306715152 [label=ViewBackward0]
+	6306713808 -> 6306715152
+	6306714720 -> 6306715584
+	6306714720 [label=TBackward0]
+	6306716928 -> 6306714720
+	13286498112 [label="encoder.layer.4.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286498112 -> 6306716928
+	6306716928 [label=AccumulateGrad]
+	6306714288 -> 6306714480
+	6306714288 [label=PermuteBackward0]
+	6306715776 -> 6306714288
+	6306715776 [label=ViewBackward0]
+	6306715872 -> 6306715776
+	6306715872 [label=ViewBackward0]
+	6306716736 -> 6306715872
+	6306716736 [label=AddmmBackward0]
+	6306717120 -> 6306716736
+	13281510560 [label="encoder.layer.4.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13281510560 -> 6306717120
+	6306717120 [label=AccumulateGrad]
+	6306716256 -> 6306716736
+	6306716256 [label=ViewBackward0]
+	6306713808 -> 6306716256
+	6306714816 -> 6306716736
+	6306714816 [label=TBackward0]
+	6306717024 -> 6306714816
+	13292733200 [label="encoder.layer.4.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13292733200 -> 6306717024
+	6306717024 [label=AccumulateGrad]
+	6306713904 -> 6306714000
+	6306713904 [label=TBackward0]
+	6306714432 -> 6306713904
+	13286497952 [label="encoder.layer.4.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286497952 -> 6306714432
+	6306714432 [label=AccumulateGrad]
+	6306713808 -> 6306709456
+	6306709408 -> 6306708496
+	13286497472 [label="encoder.layer.4.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286497472 -> 6306709408
+	6306709408 [label=AccumulateGrad]
+	6306713664 -> 6306708496
+	13286497552 [label="encoder.layer.4.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286497552 -> 6306713664
+	6306713664 [label=AccumulateGrad]
+	6306708976 -> 6306709168
+	6306708976 [label=TBackward0]
+	6306709360 -> 6306708976
+	13286338944 [label="encoder.layer.4.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286338944 -> 6306709360
+	6306709360 [label=AccumulateGrad]
+	6306708592 -> 6306708688
+	6306708592 [label=TBackward0]
+	6306709120 -> 6306708592
+	13286339264 [label="encoder.layer.4.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286339264 -> 6306709120
+	6306709120 [label=AccumulateGrad]
+	6306708496 -> 6306708352
+	6306708304 -> 6306706864
+	13286338784 [label="encoder.layer.4.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286338784 -> 6306708304
+	6306708304 [label=AccumulateGrad]
+	6306708256 -> 6306706864
+	13286338864 [label="encoder.layer.4.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286338864 -> 6306708256
+	6306708256 [label=AccumulateGrad]
+	6306707728 -> 6306708016
+	6306707728 [label=TBackward0]
+	6306708448 -> 6306707728
+	13286339904 [label="encoder.layer.5.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286339904 -> 6306708448
+	6306708448 [label=AccumulateGrad]
+	6306707584 -> 6306707536
+	6306707584 [label=PermuteBackward0]
+	6306707968 -> 6306707584
+	6306707968 [label=ViewBackward0]
+	6306708400 -> 6306707968
+	6306708400 [label=ViewBackward0]
+	6306708640 -> 6306708400
+	6306708640 [label=AddmmBackward0]
+	6306709024 -> 6306708640
+	13286339504 [label="encoder.layer.5.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286339504 -> 6306709024
+	6306709024 [label=AccumulateGrad]
+	6306708208 -> 6306708640
+	6306708208 [label=ViewBackward0]
+	6306706864 -> 6306708208
+	6306707776 -> 6306708640
+	6306707776 [label=TBackward0]
+	6306708928 -> 6306707776
+	13286339744 [label="encoder.layer.5.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286339744 -> 6306708928
+	6306708928 [label=AccumulateGrad]
+	6306707344 -> 6306707536
+	6306707344 [label=PermuteBackward0]
+	6306708832 -> 6306707344
+	6306708832 [label=ViewBackward0]
+	6306709312 -> 6306708832
+	6306709312 [label=ViewBackward0]
+	6306713952 -> 6306709312
+	6306713952 [label=AddmmBackward0]
+	6306714336 -> 6306713952
+	13286339824 [label="encoder.layer.5.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286339824 -> 6306714336
+	6306714336 [label=AccumulateGrad]
+	6306713760 -> 6306713952
+	6306713760 [label=ViewBackward0]
+	6306706864 -> 6306713760
+	6306714144 -> 6306713952
+	6306714144 [label=TBackward0]
+	6306716496 -> 6306714144
+	13286340064 [label="encoder.layer.5.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286340064 -> 6306716496
+	6306716496 [label=AccumulateGrad]
+	6306706960 -> 6306707056
+	6306706960 [label=TBackward0]
+	6306707488 -> 6306706960
+	13286339584 [label="encoder.layer.5.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286339584 -> 6306707488
+	6306707488 [label=AccumulateGrad]
+	6306706864 -> 6306706720
+	6306706672 -> 6306705712
+	13286339104 [label="encoder.layer.5.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286339104 -> 6306706672
+	6306706672 [label=AccumulateGrad]
+	6306706624 -> 6306705712
+	13286339184 [label="encoder.layer.5.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286339184 -> 6306706624
+	6306706624 [label=AccumulateGrad]
+	6306706192 -> 6306706384
+	6306706192 [label=TBackward0]
+	6306706816 -> 6306706192
+	13286340224 [label="encoder.layer.5.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286340224 -> 6306706816
+	6306706816 [label=AccumulateGrad]
+	6306705808 -> 6306705904
+	6306705808 [label=TBackward0]
+	6306706336 -> 6306705808
+	13286340544 [label="encoder.layer.5.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286340544 -> 6306706336
+	6306706336 [label=AccumulateGrad]
+	6306705712 -> 6306705568
+	6306705520 -> 6306695824
+	13286339424 [label="encoder.layer.5.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286339424 -> 6306705520
+	6306705520 [label=AccumulateGrad]
+	6306705472 -> 6306695824
+	13286340144 [label="encoder.layer.5.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286340144 -> 6306705472
+	6306705472 [label=AccumulateGrad]
+	6306696688 -> 6306696976
+	6306696688 [label=TBackward0]
+	6306697168 -> 6306696688
+	13286341184 [label="encoder.layer.6.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286341184 -> 6306697168
+	6306697168 [label=AccumulateGrad]
+	6306696544 -> 6306696496
+	6306696544 [label=PermuteBackward0]
+	6306696928 -> 6306696544
+	6306696928 [label=ViewBackward0]
+	6306697120 -> 6306696928
+	6306697120 [label=ViewBackward0]
+	6306705856 -> 6306697120
+	6306705856 [label=AddmmBackward0]
+	6306706240 -> 6306705856
+	13286340784 [label="encoder.layer.6.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286340784 -> 6306706240
+	6306706240 [label=AccumulateGrad]
+	6306705616 -> 6306705856
+	6306705616 [label=ViewBackward0]
+	6306695824 -> 6306705616
+	6306705664 -> 6306705856
+	6306705664 [label=TBackward0]
+	6306707200 -> 6306705664
+	13286341024 [label="encoder.layer.6.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286341024 -> 6306707200
+	6306707200 [label=AccumulateGrad]
+	6306696304 -> 6306696496
+	6306696304 [label=PermuteBackward0]
+	6306696736 -> 6306696304
+	6306696736 [label=ViewBackward0]
+	6306706144 -> 6306696736
+	6306706144 [label=ViewBackward0]
+	6306707008 -> 6306706144
+	6306707008 [label=AddmmBackward0]
+	6306707392 -> 6306707008
+	13286341104 [label="encoder.layer.6.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286341104 -> 6306707392
+	6306707392 [label=AccumulateGrad]
+	6306706528 -> 6306707008
+	6306706528 [label=ViewBackward0]
+	6306695824 -> 6306706528
+	6306706048 -> 6306707008
+	6306706048 [label=TBackward0]
+	6306707872 -> 6306706048
+	13286341344 [label="encoder.layer.6.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286341344 -> 6306707872
+	6306707872 [label=AccumulateGrad]
+	6306695920 -> 6306696016
+	6306695920 [label=TBackward0]
+	6306696448 -> 6306695920
+	13286340864 [label="encoder.layer.6.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286340864 -> 6306696448
+	6306696448 [label=AccumulateGrad]
+	6306695824 -> 6306695680
+	6306695632 -> 6306694672
+	13286340384 [label="encoder.layer.6.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286340384 -> 6306695632
+	6306695632 [label=AccumulateGrad]
+	6306695584 -> 6306694672
+	13286340464 [label="encoder.layer.6.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286340464 -> 6306695584
+	6306695584 [label=AccumulateGrad]
+	6306695152 -> 6306695344
+	6306695152 [label=TBackward0]
+	6306695776 -> 6306695152
+	13286341504 [label="encoder.layer.6.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286341504 -> 6306695776
+	6306695776 [label=AccumulateGrad]
+	6306694768 -> 6306694864
+	6306694768 [label=TBackward0]
+	6306695296 -> 6306694768
+	13286341824 [label="encoder.layer.6.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286341824 -> 6306695296
+	6306695296 [label=AccumulateGrad]
+	6306694672 -> 6306694528
+	6306694480 -> 6306680688
+	13286340704 [label="encoder.layer.6.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286340704 -> 6306694480
+	6306694480 [label=AccumulateGrad]
+	6306694432 -> 6306680688
+	13286341424 [label="encoder.layer.6.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286341424 -> 6306694432
+	6306694432 [label=AccumulateGrad]
+	6306693904 -> 6306694192
+	6306693904 [label=TBackward0]
+	6306694624 -> 6306693904
+	13286342464 [label="encoder.layer.7.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286342464 -> 6306694624
+	6306694624 [label=AccumulateGrad]
+	6306693760 -> 6306693712
+	6306693760 [label=PermuteBackward0]
+	6306694144 -> 6306693760
+	6306694144 [label=ViewBackward0]
+	6306694576 -> 6306694144
+	6306694576 [label=ViewBackward0]
+	6306694816 -> 6306694576
+	6306694816 [label=AddmmBackward0]
+	6306695200 -> 6306694816
+	13286342064 [label="encoder.layer.7.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286342064 -> 6306695200
+	6306695200 [label=AccumulateGrad]
+	6306694384 -> 6306694816
+	6306694384 [label=ViewBackward0]
+	6306680688 -> 6306694384
+	6306693952 -> 6306694816
+	6306693952 [label=TBackward0]
+	6306696160 -> 6306693952
+	13286342304 [label="encoder.layer.7.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286342304 -> 6306696160
+	6306696160 [label=AccumulateGrad]
+	6306693520 -> 6306693712
+	6306693520 [label=PermuteBackward0]
+	6306695008 -> 6306693520
+	6306695008 [label=ViewBackward0]
+	6306695104 -> 6306695008
+	6306695104 [label=ViewBackward0]
+	6306695968 -> 6306695104
+	6306695968 [label=AddmmBackward0]
+	6306696352 -> 6306695968
+	13286342384 [label="encoder.layer.7.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286342384 -> 6306696352
+	6306696352 [label=AccumulateGrad]
+	6306695488 -> 6306695968
+	6306695488 [label=ViewBackward0]
+	6306680688 -> 6306695488
+	6306694048 -> 6306695968
+	6306694048 [label=TBackward0]
+	6306696256 -> 6306694048
+	13286341984 [label="encoder.layer.7.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286341984 -> 6306696256
+	6306696256 [label=AccumulateGrad]
+	6306693184 -> 6306680784
+	6306693184 [label=TBackward0]
+	6306693664 -> 6306693184
+	13286342144 [label="encoder.layer.7.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286342144 -> 6306693664
+	6306693664 [label=AccumulateGrad]
+	6306680688 -> 6306680544
+	6306680496 -> 6306679536
+	13286341664 [label="encoder.layer.7.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286341664 -> 6306680496
+	6306680496 [label=AccumulateGrad]
+	6306680448 -> 6306679536
+	13286341744 [label="encoder.layer.7.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286341744 -> 6306680448
+	6306680448 [label=AccumulateGrad]
+	6306679920 -> 6306680208
+	6306679920 [label=TBackward0]
+	6306680640 -> 6306679920
+	13281579232 [label="encoder.layer.7.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13281579232 -> 6306680640
+	6306680640 [label=AccumulateGrad]
+	6306679632 -> 6306680016
+	6306679632 [label=TBackward0]
+	6306680160 -> 6306679632
+	13286429216 [label="encoder.layer.7.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286429216 -> 6306680160
+	6306680160 [label=AccumulateGrad]
+	6306679536 -> 6306679296
+	6306679248 -> 6306677808
+	13286428896 [label="encoder.layer.7.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286428896 -> 6306679248
+	6306679248 [label=AccumulateGrad]
+	6306679200 -> 6306677808
+	13286428816 [label="encoder.layer.7.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286428816 -> 6306679200
+	6306679200 [label=AccumulateGrad]
+	6306678672 -> 6306678960
+	6306678672 [label=TBackward0]
+	6306679488 -> 6306678672
+	13286429856 [label="encoder.layer.8.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286429856 -> 6306679488
+	6306679488 [label=AccumulateGrad]
+	6306678528 -> 6306678480
+	6306678528 [label=PermuteBackward0]
+	6306678912 -> 6306678528
+	6306678912 [label=ViewBackward0]
+	6306679440 -> 6306678912
+	6306679440 [label=ViewBackward0]
+	6306679680 -> 6306679440
+	6306679680 [label=AddmmBackward0]
+	6306679968 -> 6306679680
+	13286429456 [label="encoder.layer.8.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286429456 -> 6306679968
+	6306679968 [label=AccumulateGrad]
+	6306679152 -> 6306679680
+	6306679152 [label=ViewBackward0]
+	6306677808 -> 6306679152
+	6306678720 -> 6306679680
+	6306678720 [label=TBackward0]
+	6306680400 -> 6306678720
+	13286429696 [label="encoder.layer.8.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286429696 -> 6306680400
+	6306680400 [label=AccumulateGrad]
+	6306678288 -> 6306678480
+	6306678288 [label=PermuteBackward0]
+	6306679776 -> 6306678288
+	6306679776 [label=ViewBackward0]
+	6306679872 -> 6306679776
+	6306679872 [label=ViewBackward0]
+	6306680352 -> 6306679872
+	6306680352 [label=AddmmBackward0]
+	6306693568 -> 6306680352
+	13286429776 [label="encoder.layer.8.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286429776 -> 6306693568
+	6306693568 [label=AccumulateGrad]
+	6306693376 -> 6306680352
+	6306693376 [label=ViewBackward0]
+	6306677808 -> 6306693376
+	6306693232 -> 6306680352
+	6306693232 [label=TBackward0]
+	6306695728 -> 6306693232
+	13286430016 [label="encoder.layer.8.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286430016 -> 6306695728
+	6306695728 [label=AccumulateGrad]
+	6306677904 -> 6306678000
+	6306677904 [label=TBackward0]
+	6306678432 -> 6306677904
+	13286429536 [label="encoder.layer.8.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286429536 -> 6306678432
+	6306678432 [label=AccumulateGrad]
+	6306677808 -> 6306677664
+	6306677616 -> 6306688928
+	13286429056 [label="encoder.layer.8.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286429056 -> 6306677616
+	6306677616 [label=AccumulateGrad]
+	6306677568 -> 6306688928
+	13286429136 [label="encoder.layer.8.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286429136 -> 6306677568
+	6306677568 [label=AccumulateGrad]
+	6306677136 -> 6306677328
+	6306677136 [label=TBackward0]
+	6306677760 -> 6306677136
+	13286430176 [label="encoder.layer.8.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286430176 -> 6306677760
+	6306677760 [label=AccumulateGrad]
+	6306676848 -> 6306679344
+	6306676848 [label=TBackward0]
+	6306677280 -> 6306676848
+	13286430496 [label="encoder.layer.8.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286430496 -> 6306677280
+	6306677280 [label=AccumulateGrad]
+	6306688928 -> 6306688832
+	6306688784 -> 6306687344
+	13286429376 [label="encoder.layer.8.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286429376 -> 6306688784
+	6306688784 [label=AccumulateGrad]
+	6306688736 -> 6306687344
+	13286430096 [label="encoder.layer.8.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286430096 -> 6306688736
+	6306688736 [label=AccumulateGrad]
+	6306688208 -> 6306688496
+	6306688208 [label=TBackward0]
+	6306688880 -> 6306688208
+	13286431136 [label="encoder.layer.9.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286431136 -> 6306688880
+	6306688880 [label=AccumulateGrad]
+	6306688064 -> 6306688016
+	6306688064 [label=PermuteBackward0]
+	6306688448 -> 6306688064
+	6306688448 [label=ViewBackward0]
+	6306688688 -> 6306688448
+	6306688688 [label=ViewBackward0]
+	6306688256 -> 6306688688
+	6306688256 [label=AddmmBackward0]
+	6306677184 -> 6306688256
+	13286430736 [label="encoder.layer.9.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286430736 -> 6306677184
+	6306677184 [label=AccumulateGrad]
+	6306676800 -> 6306688256
+	6306676800 [label=ViewBackward0]
+	6306687344 -> 6306676800
+	6306676992 -> 6306688256
+	6306676992 [label=TBackward0]
+	6306678144 -> 6306676992
+	13286430976 [label="encoder.layer.9.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286430976 -> 6306678144
+	6306678144 [label=AccumulateGrad]
+	6306687824 -> 6306688016
+	6306687824 [label=PermuteBackward0]
+	6306688640 -> 6306687824
+	6306688640 [label=ViewBackward0]
+	6306677088 -> 6306688640
+	6306677088 [label=ViewBackward0]
+	6306677952 -> 6306677088
+	6306677952 [label=AddmmBackward0]
+	6306678336 -> 6306677952
+	13286431056 [label="encoder.layer.9.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286431056 -> 6306678336
+	6306678336 [label=AccumulateGrad]
+	6306677472 -> 6306677952
+	6306677472 [label=ViewBackward0]
+	6306687344 -> 6306677472
+	6306676896 -> 6306677952
+	6306676896 [label=TBackward0]
+	6306680592 -> 6306676896
+	13286431296 [label="encoder.layer.9.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286431296 -> 6306680592
+	6306680592 [label=AccumulateGrad]
+	6306687440 -> 6306687536
+	6306687440 [label=TBackward0]
+	6306687968 -> 6306687440
+	13286430816 [label="encoder.layer.9.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286430816 -> 6306687968
+	6306687968 [label=AccumulateGrad]
+	6306687344 -> 6306687200
+	6306687152 -> 6306686192
+	13286430336 [label="encoder.layer.9.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286430336 -> 6306687152
+	6306687152 [label=AccumulateGrad]
+	6306687104 -> 6306686192
+	13286430416 [label="encoder.layer.9.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286430416 -> 6306687104
+	6306687104 [label=AccumulateGrad]
+	6306686672 -> 6306686864
+	6306686672 [label=TBackward0]
+	6306687296 -> 6306686672
+	13286431456 [label="encoder.layer.9.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286431456 -> 6306687296
+	6306687296 [label=AccumulateGrad]
+	6306686288 -> 6306686384
+	6306686288 [label=TBackward0]
+	6306686816 -> 6306686288
+	13286431776 [label="encoder.layer.9.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286431776 -> 6306686816
+	6306686816 [label=AccumulateGrad]
+	6306686192 -> 6306686048
+	6306686000 -> 13261006784
+	13286430656 [label="encoder.layer.9.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286430656 -> 6306686000
+	6306686000 [label=AccumulateGrad]
+	6306685952 -> 13261006784
+	13286431376 [label="encoder.layer.9.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286431376 -> 6306685952
+	6306685952 [label=AccumulateGrad]
+	6306685424 -> 6306685712
+	6306685424 [label=TBackward0]
+	6306686144 -> 6306685424
+	13286411136 [label="encoder.layer.10.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13286411136 -> 6306686144
+	6306686144 [label=AccumulateGrad]
+	6306685280 -> 6306685232
+	6306685280 [label=PermuteBackward0]
+	6306685664 -> 6306685280
+	6306685664 [label=ViewBackward0]
+	6306686096 -> 6306685664
+	6306686096 [label=ViewBackward0]
+	6306686336 -> 6306686096
+	6306686336 [label=AddmmBackward0]
+	6306686720 -> 6306686336
+	13286410736 [label="encoder.layer.10.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286410736 -> 6306686720
+	6306686720 [label=AccumulateGrad]
+	6306685904 -> 6306686336
+	6306685904 [label=ViewBackward0]
+	13261006784 -> 6306685904
+	6306685472 -> 6306686336
+	6306685472 [label=TBackward0]
+	6306687680 -> 6306685472
+	13286410976 [label="encoder.layer.10.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286410976 -> 6306687680
+	6306687680 [label=AccumulateGrad]
+	6306685040 -> 6306685232
+	6306685040 [label=PermuteBackward0]
+	6306686528 -> 6306685040
+	6306686528 [label=ViewBackward0]
+	6306686624 -> 6306686528
+	6306686624 [label=ViewBackward0]
+	6306687488 -> 6306686624
+	6306687488 [label=AddmmBackward0]
+	6306687872 -> 6306687488
+	13286411056 [label="encoder.layer.10.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286411056 -> 6306687872
+	6306687872 [label=AccumulateGrad]
+	6306687008 -> 6306687488
+	6306687008 [label=ViewBackward0]
+	13261006784 -> 6306687008
+	6306685568 -> 6306687488
+	6306685568 [label=TBackward0]
+	6306687776 -> 6306685568
+	13286411296 [label="encoder.layer.10.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286411296 -> 6306687776
+	6306687776 [label=AccumulateGrad]
+	13261007168 -> 13261005344
+	13261007168 [label=TBackward0]
+	6306685184 -> 13261007168
+	13286410816 [label="encoder.layer.10.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286410816 -> 6306685184
+	6306685184 [label=AccumulateGrad]
+	13261006784 -> 13261008848
+	13261006496 -> 13286460960
+	13286410336 [label="encoder.layer.10.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286410336 -> 13261006496
+	13261006496 [label=AccumulateGrad]
+	13261006208 -> 13286460960
+	13286410416 [label="encoder.layer.10.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286410416 -> 13261006208
+	13261006208 [label=AccumulateGrad]
+	13261007984 -> 13261007888
+	13261007984 [label=TBackward0]
+	13261007408 -> 13261007984
+	13286411456 [label="encoder.layer.10.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286411456 -> 13261007408
+	13261007408 [label=AccumulateGrad]
+	4768574768 -> 13260873536
+	4768574768 [label=TBackward0]
+	13261007312 -> 4768574768
+	13286411776 [label="encoder.layer.10.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286411776 -> 13261007312
+	13261007312 [label=AccumulateGrad]
+	13286460960 -> 6306397056
+	13286459520 -> 4389542016
+	13286410656 [label="encoder.layer.10.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286410656 -> 13286459520
+	13286459520 [label=AccumulateGrad]
+	13286460192 -> 4389542016
+	13286411376 [label="encoder.layer.10.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286411376 -> 13286460192
+	13286460192 [label=AccumulateGrad]
+	6306398016 -> 6306397920
+	6306398016 [label=TBackward0]
+	13286461008 -> 6306398016
+	13200455936 [label="encoder.layer.11.attention.self.query.weight
+ (768, 768)" fillcolor=lightblue]
+	13200455936 -> 13286461008
+	13286461008 [label=AccumulateGrad]
+	6306397584 -> 4389541440
+	6306397584 [label=PermuteBackward0]
+	6306397968 -> 6306397584
+	6306397968 [label=ViewBackward0]
+	6306398112 -> 6306397968
+	6306398112 [label=ViewBackward0]
+	4768573568 -> 6306398112
+	4768573568 [label=AddmmBackward0]
+	13260873440 -> 4768573568
+	13286412016 [label="encoder.layer.11.attention.self.key.bias
+ (768)" fillcolor=lightblue]
+	13286412016 -> 13260873440
+	13260873440 [label=AccumulateGrad]
+	13260872432 -> 4768573568
+	13260872432 [label=ViewBackward0]
+	4389542016 -> 13260872432
+	13261006304 -> 4768573568
+	13261006304 [label=TBackward0]
+	13261008368 -> 13261006304
+	13286411936 [label="encoder.layer.11.attention.self.key.weight
+ (768, 768)" fillcolor=lightblue]
+	13286411936 -> 13261008368
+	13261008368 [label=AccumulateGrad]
+	6306397536 -> 4389541440
+	6306397536 [label=PermuteBackward0]
+	6306398160 -> 6306397536
+	6306398160 [label=ViewBackward0]
+	6306397392 -> 6306398160
+	6306397392 [label=ViewBackward0]
+	13261007936 -> 6306397392
+	13261007936 [label=AddmmBackward0]
+	13261007504 -> 13261007936
+	13286494352 [label="encoder.layer.11.attention.self.value.bias
+ (768)" fillcolor=lightblue]
+	13286494352 -> 13261007504
+	13261007504 [label=AccumulateGrad]
+	13261006064 -> 13261007936
+	13261006064 [label=ViewBackward0]
+	4389542016 -> 13261006064
+	6306685088 -> 13261007936
+	6306685088 [label=TBackward0]
+	6306687248 -> 6306685088
+	13286494592 [label="encoder.layer.11.attention.self.value.weight
+ (768, 768)" fillcolor=lightblue]
+	13286494592 -> 6306687248
+	6306687248 [label=AccumulateGrad]
+	4389541584 -> 4389543120
+	4389541584 [label=TBackward0]
+	4389542064 -> 4389541584
+	13286412096 [label="encoder.layer.11.attention.output.dense.weight
+ (768, 768)" fillcolor=lightblue]
+	13286412096 -> 4389542064
+	4389542064 [label=AccumulateGrad]
+	4389542016 -> 6306648176
+	6306648128 -> 6306649616
+	13286411616 [label="encoder.layer.11.attention.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286411616 -> 6306648128
+	6306648128 [label=AccumulateGrad]
+	6306648320 -> 6306649616
+	13286411696 [label="encoder.layer.11.attention.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286411696 -> 6306648320
+	6306648320 [label=AccumulateGrad]
+	6306649712 -> 6306648560
+	6306649712 [label=TBackward0]
+	6306648224 -> 6306649712
+	13286494752 [label="encoder.layer.11.intermediate.dense.weight
+ (3072, 768)" fillcolor=lightblue]
+	13286494752 -> 6306648224
+	6306648224 [label=AccumulateGrad]
+	6306649760 -> 6306648608
+	6306649760 [label=TBackward0]
+	6306649040 -> 6306649760
+	13286495072 [label="encoder.layer.11.output.dense.weight
+ (768, 3072)" fillcolor=lightblue]
+	13286495072 -> 6306649040
+	6306649040 [label=AccumulateGrad]
+	6306649616 -> 6306649856
+	6306648992 -> 6306649472
+	13286494432 [label="encoder.layer.11.output.LayerNorm.weight
+ (768)" fillcolor=lightblue]
+	13286494432 -> 6306648992
+	6306648992 [label=AccumulateGrad]
+	6306649376 -> 6306649472
+	13286494672 [label="encoder.layer.11.output.LayerNorm.bias
+ (768)" fillcolor=lightblue]
+	13286494672 -> 6306649376
+	6306649376 [label=AccumulateGrad]
+	6306649472 -> 6306600336
+}

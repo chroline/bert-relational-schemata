@@ -1,0 +1,3459 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{Artstein2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fa1dff427d354932033a58782953eace}{%
+           family={Artstein},
+           familyi={A\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a18d390058dfaa1a918b1cb85cde6539}{%
+           family={Poesio},
+           familyi={P\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press - Journals}%
+      }
+      \strng{namehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{fullhash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{bibnamehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{authorbibnamehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{authornamehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{authorfullhash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1530-9312}
+      \field{journaltitle}{Computational Linguistics}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Inter-Coder Agreement for Computational Linguistics}
+      \field{volume}{34}
+      \field{year}{2008}
+      \field{pages}{555\bibrangedash 596}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1162/coli.07-034-r2
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1162/coli.07-034-R2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1162/coli.07-034-R2
+      \endverb
+    \endentry
+    \entry{Bender2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e579c650beb31c286389278140fadd63}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Emily\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=403621f9b668fdee7de73b7d4e740304}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=3147296c99a3f829087becd1a4eaec08}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b8d8d0f2eea7025356be957bed3afa4e}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Joyce},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6c764a5e5416742214465472b4fc6729}{%
+           family={Schluter},
+           familyi={S\bibinitperiod},
+           given={Natalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=32d9493b21c7debeff93b29d5110a8d0}{%
+           family={Tetreault},
+           familyi={T\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b300449a93d89913f19440d391609596}
+      \strng{fullhash}{b300449a93d89913f19440d391609596}
+      \strng{bibnamehash}{b300449a93d89913f19440d391609596}
+      \strng{authorbibnamehash}{b300449a93d89913f19440d391609596}
+      \strng{authornamehash}{b300449a93d89913f19440d391609596}
+      \strng{authorfullhash}{b300449a93d89913f19440d391609596}
+      \strng{editorbibnamehash}{8963a8861ceffaa780e4ca5c344a8653}
+      \strng{editornamehash}{b54aeb64c9e09184a85a84910f037e3c}
+      \strng{editorfullhash}{8963a8861ceffaa780e4ca5c344a8653}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The success of the large neural language models on many NLP tasks is exciting. However, we find that these successes sometimes lead to hype in which these models are being described as {“}understanding{”} language or capturing {“}meaning{”}. In this position paper, we argue that a system trained only on form has a priori no way to learn meaning. In keeping with the ACL 2020 theme of {“}Taking Stock of Where We`ve Been and Where We`re Going{”}, we argue that a clear understanding of the distinction between form and meaning will help guide the field towards better science around natural language understanding.}
+      \field{booktitle}{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{Climbing towards {NLU}: {On} Meaning, Form, and Understanding in the Age of Data}
+      \field{year}{2020}
+      \field{pages}{5185\bibrangedash 5198}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2020.acl-main.463
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2020.acl-main.463/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2020.acl-main.463/
+      \endverb
+    \endentry
+    \entry{cattell1971abilities}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9435ec5e5f411b856189b7f3cd9698f}{%
+           family={Cattell},
+           familyi={C\bibinitperiod},
+           given={R.B.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Houghton Mifflin}%
+      }
+      \strng{namehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{fullhash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{bibnamehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{authorbibnamehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{authornamehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{authorfullhash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780395042755}
+      \field{title}{Abilities: Their Structure, Growth, and Action}
+      \field{year}{1971}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=9dRq2P9SI5QC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=9dRq2P9SI5QC
+      \endverb
+    \endentry
+    \entry{Chomsky1965}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{bibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorbibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authornamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhash}{28167c0b3800bc5cfb686676277005b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Aspects of the theory of syntax}
+      \field{year}{1965}
+    \endentry
+    \entry{Cohen1960}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eaad07ee1c6ef93a9308150f12c3c2eb}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{fullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{bibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorbibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authornamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorfullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-3888}
+      \field{journaltitle}{Educational and Psychological Measurement}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{A Coefficient of Agreement for Nominal Scales}
+      \field{volume}{20}
+      \field{year}{1960}
+      \field{pages}{37\bibrangedash 46}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1177/001316446002000104
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1177/001316446002000104
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1177/001316446002000104
+      \endverb
+    \endentry
+    \entry{davis2015commonsense}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5e313a551f14d86a5958c804b661f644}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=199868cb9a5ee49454615e31ec8cc1ae}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{fullhash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{bibnamehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{authorbibnamehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{authornamehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{authorfullhash}{322a44acd2c91ebf809cd2509994a5fe}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{9}
+      \field{title}{Commonsense reasoning and commonsense knowledge in artificial intelligence}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{pages}{92\bibrangedash 103}
+      \range{pages}{12}
+    \endentry
+    \entry{devlin-etal-2019-bert}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f974925c5c6cca1d67fd604cc9fc9c79}{%
+           family={Burstein},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3aec97177cb69c892f2c8a2d9bc31a10}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b47889ad94571547c92970150485798b}{%
+           family={Solorio},
+           familyi={S\bibinitperiod},
+           given={Thamar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{editorbibnamehash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \strng{editornamehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{editorfullhash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7{\%} (4.6{\%} absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{booktitle}{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}
+      \field{month}{6}
+      \field{title}{{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \field{pages}{4171\bibrangedash 4186}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1423
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N19-1423/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N19-1423/
+      \endverb
+    \endentry
+    \entry{ethayarajh-2019-contextual}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e0326e7704dfc4d1bc0ad89e1192f67}{%
+           family={Ethayarajh},
+           familyi={E\bibinitperiod},
+           given={Kawin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=8db8ce939f6707d15a65c68fb7eb7fce}{%
+           family={Inui},
+           familyi={I\bibinitperiod},
+           given={Kentaro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=78f8ffda028131a2ad3f19fb3e42cdb7}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=800a361562c5521177148c8fa518b0da}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=099b49eba881fb48d8a736fb9873c0e6}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hong Kong, China}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{fullhash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{bibnamehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{authorbibnamehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{authornamehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{authorfullhash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{editorbibnamehash}{6f401db5289f8ba6e23209eef52e0ad3}
+      \strng{editornamehash}{50a493d0885b78a76247a8faab26ce57}
+      \strng{editorfullhash}{6f401db5289f8ba6e23209eef52e0ad3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Replacing static word embeddings with contextualized word representations has yielded significant improvements on many NLP tasks. However, just how contextual are the contextualized representations produced by models such as ELMo and BERT? Are there infinitely many context-specific representations for each word, or are words essentially assigned one of a finite number of word-sense representations? For one, we find that the contextualized representations of all words are not isotropic in any layer of the contextualizing model. While representations of the same word in different contexts still have a greater cosine similarity than those of two different words, this self-similarity is much lower in upper layers. This suggests that upper layers of contextualizing models produce more context-specific representations, much like how upper layers of LSTMs produce more task-specific representations. In all layers of ELMo, BERT, and GPT-2, on average, less than 5{\%} of the variance in a word`s contextualized representations can be explained by a static embedding for that word, providing some justification for the success of contextualized representations.}
+      \field{booktitle}{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}
+      \field{month}{11}
+      \field{title}{How Contextual are Contextualized Word Representations? {C}omparing the Geometry of {BERT}, {ELM}o, and {GPT}-2 Embeddings}
+      \field{year}{2019}
+      \field{pages}{55\bibrangedash 65}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/D19-1006
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/D19-1006/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/D19-1006/
+      \endverb
+    \endentry
+    \entry{Fodor1988}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=99a8aced15864fc92f53f1bb39897f06}{%
+           family={Fodor},
+           familyi={F\bibinitperiod},
+           given={Jerry\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f610e8fce577b44007d2d4c9bdb3686}{%
+           family={Pylyshyn},
+           familyi={P\bibinitperiod},
+           given={Zenon\bibnamedelima W.},
+           giveni={Z\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{fullhash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{bibnamehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{authorbibnamehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{authornamehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{authorfullhash}{8ea1073583acb011b401d2b74a54e1ae}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-0277}
+      \field{journaltitle}{Cognition}
+      \field{month}{3}
+      \field{number}{1–2}
+      \field{title}{Connectionism and cognitive architecture: A critical analysis}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{pages}{3\bibrangedash 71}
+      \range{pages}{69}
+      \verb{doi}
+      \verb 10.1016/0010-0277(88)90031-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/0010-0277(88)90031-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0010-0277(88)90031-5
+      \endverb
+    \endentry
+    \entry{gandikota2024evolution}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5abc0fcabad20c98bf0b3c307124871e}{%
+           family={Gandikota},
+           familyi={G\bibinitperiod},
+           given={Rohit},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c1681f1d7c7e1647445f11886c0431c}{%
+           family={Loftus},
+           familyi={L\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f2e2531201cfbf853f16f668132eaf2}{%
+           family={Philip},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9730f59e004940bddb003a4bdca1a831}{%
+           family={Bompilwar},
+           familyi={B\bibinitperiod},
+           given={Ritik},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b876a384fc4df712a737d153a1a9977}{%
+           family={Rager},
+           familyi={R\bibinitperiod},
+           given={Can},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f0c64e476041d3c0ba3fb4f246f1c565}
+      \strng{fullhash}{3092b77f146214d934d7123581adadc7}
+      \strng{bibnamehash}{3092b77f146214d934d7123581adadc7}
+      \strng{authorbibnamehash}{3092b77f146214d934d7123581adadc7}
+      \strng{authornamehash}{f0c64e476041d3c0ba3fb4f246f1c565}
+      \strng{authorfullhash}{3092b77f146214d934d7123581adadc7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Unpublished manuscript}
+      \field{title}{Evolution of LLM Stages across Model Sizes}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://sidn.baulab.info/evolution/
+      \endverb
+      \verb{url}
+      \verb https://sidn.baulab.info/evolution/
+      \endverb
+    \endentry
+    \entry{Gawin2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4ef016f48ce808a66e5f9ee32df4bf37}{%
+           family={Gawin},
+           familyi={G\bibinitperiod},
+           given={Cole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=941a95702c22662c78c93936faa6d2ce}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yidan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a9721a2ee408f62c28c8648a3c89490}{%
+           family={Kejriwal},
+           familyi={K\bibinitperiod},
+           given={Mayank},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c17a696c673c4ab3a354626be85d505}
+      \strng{fullhash}{cfb27702c19f8907c1f323257f98d780}
+      \strng{bibnamehash}{cfb27702c19f8907c1f323257f98d780}
+      \strng{authorbibnamehash}{cfb27702c19f8907c1f323257f98d780}
+      \strng{authornamehash}{9c17a696c673c4ab3a354626be85d505}
+      \strng{authorfullhash}{cfb27702c19f8907c1f323257f98d780}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{title}{Navigating semantic relations: Challenges for language models in abstract common-sense reasoning}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2502.14086
+      \endverb
+    \endentry
+    \entry{gemmateam2024gemmaopenmodelsbased}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=351c00969359c04c1e107ff4bdd80d9e}{%
+           family={{Gemma Team}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{fullhash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{bibnamehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{authorbibnamehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{authornamehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{authorfullhash}{351c00969359c04c1e107ff4bdd80d9e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Gemma: Open Models Based on Gemini Research and Technology}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2403.08295
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.08295
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.08295
+      \endverb
+    \endentry
+    \entry{Gentner1983}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9285e83d141663a046a452dd06ae7ae3}{%
+           family={Gentner},
+           familyi={G\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{fullhash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{bibnamehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{authorbibnamehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{authornamehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{authorfullhash}{9285e83d141663a046a452dd06ae7ae3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0364-0213}
+      \field{journaltitle}{Cognitive Science}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Structure-mapping: A theoretical framework for analogy}
+      \field{volume}{7}
+      \field{year}{1983}
+      \field{pages}{155\bibrangedash 170}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/s0364-0213(83)80009-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0364-0213(83)80009-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0364-0213(83)80009-3
+      \endverb
+    \endentry
+    \entry{gentner2005relational}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=538c12fad2d6e4061b407ee4fa47a679}{%
+           family={Gentner},
+           familyi={G\bibinitperiod},
+           given={Dedre},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30b7eb0704688319b2b8c270f89703ae}{%
+           family={Kurtz},
+           familyi={K\bibinitperiod},
+           given={Kenneth\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=20cdae14277110f418e922135a24e41b}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=87cb9ccdd0b3dcf2d2788b400904ad54}{%
+           family={Goldstone},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=25187212ed0c3e9ff80f24c06872dc4a}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=77ad13cfa843dd66be07f514c1375b83}{%
+           family={Markman},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ac4fcfcf31090531b298ad40de8b31e9}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{7ff86cb63593288e82296507ec093297}
+      \strng{fullhash}{7ff86cb63593288e82296507ec093297}
+      \strng{bibnamehash}{7ff86cb63593288e82296507ec093297}
+      \strng{authorbibnamehash}{7ff86cb63593288e82296507ec093297}
+      \strng{authornamehash}{7ff86cb63593288e82296507ec093297}
+      \strng{authorfullhash}{7ff86cb63593288e82296507ec093297}
+      \strng{editorbibnamehash}{728624f109b10ab8ff93dabf0cf635a2}
+      \strng{editornamehash}{0340256d433f0067d4313b52db1b2f84}
+      \strng{editorfullhash}{728624f109b10ab8ff93dabf0cf635a2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Categorization Inside and Outside the Laboratory: Essays in Honor of Douglas L. Medin}
+      \field{title}{Relational Categories}
+      \field{year}{2005}
+      \field{pages}{151\bibrangedash 175}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1037/11156-009
+      \endverb
+    \endentry
+    \entry{Kaufer1979}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46c36e5800ef0eefbf561b3d8f702c72}{%
+           family={Kaufer},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{fullhash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{bibnamehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{authorbibnamehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{authornamehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{authorfullhash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-7441}
+      \field{journaltitle}{Philosophy of the Social Sciences}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{The Competence/Performance Distinction in Linguistic Theory}
+      \field{volume}{9}
+      \field{year}{1979}
+      \field{pages}{257\bibrangedash 275}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1177/004839317900900301
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1177/004839317900900301
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1177/004839317900900301
+      \endverb
+    \endentry
+    \entry{Kriegeskorte2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d994ee9a00ec4dcc000b2c91ac22ede1}{%
+           family={Kriegeskorte},
+           familyi={K\bibinitperiod},
+           given={Nikolaus},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=424a7b33fb1f184b0d10a7da6ff45275}{%
+           family={Kievit},
+           familyi={K\bibinitperiod},
+           given={Rogier\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{63090ae820256e711d78f542ef85601c}
+      \strng{fullhash}{63090ae820256e711d78f542ef85601c}
+      \strng{bibnamehash}{63090ae820256e711d78f542ef85601c}
+      \strng{authorbibnamehash}{63090ae820256e711d78f542ef85601c}
+      \strng{authornamehash}{63090ae820256e711d78f542ef85601c}
+      \strng{authorfullhash}{63090ae820256e711d78f542ef85601c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1364-6613}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Representational geometry: integrating cognition, computation, and the brain}
+      \field{volume}{17}
+      \field{year}{2013}
+      \field{pages}{401\bibrangedash 412}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.tics.2013.06.007
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.tics.2013.06.007
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.tics.2013.06.007
+      \endverb
+    \endentry
+    \entry{Kriegeskorte2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d994ee9a00ec4dcc000b2c91ac22ede1}{%
+           family={Kriegeskorte},
+           familyi={K\bibinitperiod},
+           given={Nikolaus},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebc8ad42c4e4036a7cb54e92bdfb89cd}{%
+           family={Mur},
+           familyi={M\bibinitperiod},
+           given={Marieke},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e44f57cab215f7774b57b1f6b6cb620}{%
+           family={Bandettini},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{9ff161159b5e1d85cd45ef2527bc2478}
+      \strng{fullhash}{257d85d2bf04cad273507d380ac5b0b5}
+      \strng{bibnamehash}{257d85d2bf04cad273507d380ac5b0b5}
+      \strng{authorbibnamehash}{257d85d2bf04cad273507d380ac5b0b5}
+      \strng{authornamehash}{9ff161159b5e1d85cd45ef2527bc2478}
+      \strng{authorfullhash}{257d85d2bf04cad273507d380ac5b0b5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1662-5137}
+      \field{journaltitle}{Frontiers in Systems Neuroscience}
+      \field{title}{Representational similarity analysis – connecting the branches of systems neuroscience}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.3389/neuro.06.004.2008
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3389/neuro.06.004.2008
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3389/neuro.06.004.2008
+      \endverb
+    \endentry
+    \entry{Laakso2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f7643cc86187bcca34041700f42f73d5}{%
+           family={Laakso},
+           familyi={L\bibinitperiod},
+           given={Aarre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2c816b9cde48822a4674168b0e134e2}{%
+           family={Cottrell},
+           familyi={C\bibinitperiod},
+           given={Garrison},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{fullhash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{bibnamehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{authorbibnamehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{authornamehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{authorfullhash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1465-394X}
+      \field{journaltitle}{Philosophical Psychology}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Content and cluster analysis: Assessing representational similarity in neural systems}
+      \field{volume}{13}
+      \field{year}{2000}
+      \field{pages}{47\bibrangedash 76}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1080/09515080050002726
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/09515080050002726
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/09515080050002726
+      \endverb
+    \endentry
+    \entry{Lake2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8449df2d22be789ac9cc32444c31921e}{%
+           family={Lake},
+           familyi={L\bibinitperiod},
+           given={Brenden\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e226fb1da66be94e73828778e6eb8af8}{%
+           family={Ullman},
+           familyi={U\bibinitperiod},
+           given={Tomer\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c7ff02e1f8b4c4aa7bfddece14f23d2}{%
+           family={Tenenbaum},
+           familyi={T\bibinitperiod},
+           given={Joshua\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=947b5ff2e5969eafe5136b3e017c5c01}{%
+           family={Gershman},
+           familyi={G\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eff7bbe99dbb8df47713e2e6698163af}
+      \strng{fullhash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \strng{bibnamehash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \strng{authorbibnamehash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \strng{authornamehash}{eff7bbe99dbb8df47713e2e6698163af}
+      \strng{authorfullhash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{title}{Building machines that learn and think like people}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{e253}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/S0140525X16001837
+      \endverb
+    \endentry
+    \entry{liu-etal-2019-linguistic}{inbook}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ad8b44fb7f6f1b83fe7fb3b875afaf99}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Nelson\bibnamedelima F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6adacaf607ef85a7b55da44661636929}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b1e0145098271245102c2c35a46ffe4}{%
+           family={Belinkov},
+           familyi={B\bibinitperiod},
+           given={Yonatan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=711e37ce316a72d79bd008a205513ef0}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76caee508bed7d0995f7c21cc5e6208c}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Noah\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f974925c5c6cca1d67fd604cc9fc9c79}{%
+           family={Burstein},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3aec97177cb69c892f2c8a2d9bc31a10}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b47889ad94571547c92970150485798b}{%
+           family={Solorio},
+           familyi={S\bibinitperiod},
+           given={Thamar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{aafa2d245e70b7be840882cd4df991be}
+      \strng{fullhash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{bibnamehash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{authorbibnamehash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{authornamehash}{aafa2d245e70b7be840882cd4df991be}
+      \strng{authorfullhash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{editorbibnamehash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \strng{editornamehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{editorfullhash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.}
+      \field{booktitle}{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}
+      \field{month}{6}
+      \field{title}{Linguistic Knowledge and Transferability of Contextual Representations}
+      \field{year}{2019}
+      \field{pages}{1073\bibrangedash 1094}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1112
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N19-1112/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N19-1112/
+      \endverb
+    \endentry
+    \entry{McCoy2019}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e12de261223703598382d4e3c6de3d6d}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca6d98b9aedc0227fb0ef517ebdc65e}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={Ellie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11e9c967573c1c8a0604dda20cf8a914}{%
+           family={Linzen},
+           familyi={L\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=088f1cd997c8227387a06e1cb2dc1538}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852889328d57da2df5bccea3165205d0}{%
+           family={Traum},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98a908240c23e42cd08857cd67e53cff}{%
+           family={Màrquez},
+           familyi={M\bibinitperiod},
+           given={Lluís},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{8718e52a026663a3a6f51f37dd37cc39}
+      \strng{fullhash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{bibnamehash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{authorbibnamehash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{authornamehash}{8718e52a026663a3a6f51f37dd37cc39}
+      \strng{authorfullhash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{editorbibnamehash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \strng{editornamehash}{5c88cffc3efd571ed140bf0bd890dbe2}
+      \strng{editorfullhash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A machine learning system can score well on a given test set by relying on heuristics that are effective for frequent example types but break down in more challenging cases. We study this issue within natural language inference (NLI), the task of determining whether one sentence entails another. We hypothesize that statistical NLI models may adopt three fallible syntactic heuristics: the lexical overlap heuristic, the subsequence heuristic, and the constituent heuristic. To determine whether models have adopted these heuristics, we introduce a controlled evaluation set called HANS (Heuristic Analysis for NLI Systems), which contains many examples where the heuristics fail. We find that models trained on MNLI, including BERT, a state-of-the-art model, perform very poorly on HANS, suggesting that they have indeed adopted these heuristics. We conclude that there is substantial room for improvement in NLI systems, and that the HANS dataset can motivate and measure progress in this area.}
+      \field{booktitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference}
+      \field{year}{2019}
+      \field{pages}{3428\bibrangedash 3448}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1334
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1334/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1334/
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.1802.03426}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3edd0ee6ca72eca5c532b9c1fcee621}{%
+           family={McInnes},
+           familyi={M\bibinitperiod},
+           given={Leland},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a653f5c3174b96798d6336399101032}{%
+           family={Healy},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=542b470ec223367aba58d9d095e4e340}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{3341d13f7f8011d4c09baee830a3a666}
+      \strng{fullhash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{bibnamehash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{authorbibnamehash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{authornamehash}{3341d13f7f8011d4c09baee830a3a666}
+      \strng{authorfullhash}{9bc0813b09f8460b9f60233db84de773}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1802.03426
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1802.03426
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1802.03426
+      \endverb
+      \keyw{Machine Learning (stat.ML),Computational Geometry (cs.CG),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{merchant-etal-2020-happens}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c84156c722387f5bf273d87c679668f2}{%
+           family={Merchant},
+           familyi={M\bibinitperiod},
+           given={Amil},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8fcddd71bb34da2ba9ba197dc5b432a}{%
+           family={Rahimtoroghi},
+           familyi={R\bibinitperiod},
+           given={Elahe},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca6d98b9aedc0227fb0ef517ebdc65e}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={Ellie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc9233c01b73655be13b8add3ca49862}{%
+           family={Tenney},
+           familyi={T\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=499ff9eded0aaca620050881dee7df73}{%
+           family={Alishahi},
+           familyi={A\bibinitperiod},
+           given={Afra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b1e0145098271245102c2c35a46ffe4}{%
+           family={Belinkov},
+           familyi={B\bibinitperiod},
+           given={Yonatan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e888801ffefccb63cfb89e7629b5dff4}{%
+           family={Chrupa{ł}a},
+           familyi={C\bibinitperiod},
+           given={Grzegorz},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0aab99f9623dcafc949b52e6684d9156}{%
+           family={Hupkes},
+           familyi={H\bibinitperiod},
+           given={Dieuwke},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4d9c3b5b75abff3e8df33bd05ed75d32}{%
+           family={Pinter},
+           familyi={P\bibinitperiod},
+           given={Yuval},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a90019133d8f936f4dd83e660602362b}{%
+           family={Sajjad},
+           familyi={S\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{c99414119ff0fa2c9b0fdf3eeac73b64}
+      \strng{fullhash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{bibnamehash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{authorbibnamehash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{authornamehash}{c99414119ff0fa2c9b0fdf3eeac73b64}
+      \strng{authorfullhash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{editorbibnamehash}{40b24a1dcba680ede4b9b82f5c2090e8}
+      \strng{editornamehash}{7531b0db3f6fbbc79cfd7722a61df7aa}
+      \strng{editorfullhash}{40b24a1dcba680ede4b9b82f5c2090e8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While much recent work has examined how linguistic information is encoded in pre-trained sentence representations, comparatively little is understood about how these models change when adapted to solve downstream tasks. Using a suite of analysis techniques{---}supervised probing, unsupervised similarity analysis, and layer-based ablations{---}we investigate how fine-tuning affects the representations of the BERT model. We find that while fine-tuning necessarily makes some significant changes, there is no catastrophic forgetting of linguistic phenomena. We instead find that fine-tuning is a conservative process that primarily affects the top layers of BERT, albeit with noteworthy variation across tasks. In particular, dependency parsing reconfigures most of the model, whereas SQuAD and MNLI involve much shallower processing. Finally, we also find that fine-tuning has a weaker effect on representations of out-of-domain sentences, suggesting room for improvement in model generalization.}
+      \field{booktitle}{Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP}
+      \field{month}{11}
+      \field{title}{What Happens To {BERT} Embeddings During Fine-tuning?}
+      \field{year}{2020}
+      \field{pages}{33\bibrangedash 44}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.18653/v1/2020.blackboxnlp-1.4
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2020.blackboxnlp-1.4/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2020.blackboxnlp-1.4/
+      \endverb
+    \endentry
+    \entry{Mikolov2013}{inbook}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84d9f354fa0b45dae996f27dad2c6607}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg\bibnamedelima S},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62f954323339abeba6c6a240e9d2855b}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=270087258d6a002033f05032fbdf6fad}{%
+           family={Burges},
+           familyi={B\bibinitperiod},
+           given={C.J.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bbfb0f3936c83b7b099561e6f0e32ef3}{%
+           family={Bottou},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=064d84a432787740019dc765d9115718}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b8fd0c0f416ef8a8bbb50286418e9df8}{%
+           family={Ghahramani},
+           familyi={G\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ad5ed31dbb8d37755c6cb48bedfdfe1d}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={K.Q.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{fullhash}{fde8281f0504852db8650bb0736061b6}
+      \strng{bibnamehash}{fde8281f0504852db8650bb0736061b6}
+      \strng{authorbibnamehash}{fde8281f0504852db8650bb0736061b6}
+      \strng{authornamehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{authorfullhash}{fde8281f0504852db8650bb0736061b6}
+      \strng{editorbibnamehash}{c967e53f70519e0fc0a0563c0286a83a}
+      \strng{editornamehash}{0de7e9cd99bb93b3873173bbb85ab3d7}
+      \strng{editorfullhash}{c967e53f70519e0fc0a0563c0286a83a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Distributed Representations of Words and Phrases and their Compositionality}
+      \field{volume}{26}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf
+      \endverb
+    \endentry
+    \entry{Niven2019}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=14f73c5d4c662e6c0ae2cb3c95d807ca}{%
+           family={Niven},
+           familyi={N\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eee47ff5c2dd56d95e088afcbabd4cbe}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Hung-Yu},
+           giveni={H\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=088f1cd997c8227387a06e1cb2dc1538}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852889328d57da2df5bccea3165205d0}{%
+           family={Traum},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98a908240c23e42cd08857cd67e53cff}{%
+           family={Màrquez},
+           familyi={M\bibinitperiod},
+           given={Lluís},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{fullhash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{bibnamehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{authorbibnamehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{authornamehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{authorfullhash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{editorbibnamehash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \strng{editornamehash}{5c88cffc3efd571ed140bf0bd890dbe2}
+      \strng{editorfullhash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We are surprised to find that BERT`s peak performance of 77{\%} on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work.}
+      \field{booktitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{Probing Neural Network Comprehension of Natural Language Arguments}
+      \field{year}{2019}
+      \field{pages}{4658\bibrangedash 4664}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1459
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1459/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1459/
+      \endverb
+    \endentry
+    \entry{Spearman1904}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe74eb0f9a2d4cd74c2a1f1dcf7caf85}{%
+           family={Spearman},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Illinois Press}%
+      }
+      \strng{namehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{fullhash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{bibnamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authorbibnamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authornamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authorfullhash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9556}
+      \field{journaltitle}{The American Journal of Psychology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The Proof and Measurement of Association between Two Things}
+      \field{volume}{15}
+      \field{year}{1904}
+      \field{pages}{72}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1412159
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.2307/1412159
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.2307/1412159
+      \endverb
+    \endentry
+    \entry{speer2017conceptnet}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4d757257b940c16e71cac823afe9b2e3}{%
+           family={Speer},
+           familyi={S\bibinitperiod},
+           given={Robyn},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b3c1fd1a7f952fbf0ec71e46d60d749}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17886ebb8b9a8fb21c809ebeda86995c}{%
+           family={Havasi},
+           familyi={H\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef479ec1c6fefd1b9b6f06124096951d}
+      \strng{fullhash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \strng{bibnamehash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \strng{authorbibnamehash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \strng{authornamehash}{ef479ec1c6fefd1b9b6f06124096951d}
+      \strng{authorfullhash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the AAAI conference on artificial intelligence}
+      \field{number}{1}
+      \field{title}{Conceptnet 5.5: An open multilingual graph of general knowledge}
+      \field{volume}{31}
+      \field{year}{2017}
+    \endentry
+    \entry{tenney-etal-2019-bert}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dc9233c01b73655be13b8add3ca49862}{%
+           family={Tenney},
+           familyi={T\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8019d13f15afa35450262916b4cec44}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Dipanjan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca6d98b9aedc0227fb0ef517ebdc65e}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={Ellie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=088f1cd997c8227387a06e1cb2dc1538}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852889328d57da2df5bccea3165205d0}{%
+           family={Traum},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98a908240c23e42cd08857cd67e53cff}{%
+           family={Màrquez},
+           familyi={M\bibinitperiod},
+           given={Lluís},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{153894917fa73d131aefcda9fab828ce}
+      \strng{fullhash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{bibnamehash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{authorbibnamehash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{authornamehash}{153894917fa73d131aefcda9fab828ce}
+      \strng{authorfullhash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{editorbibnamehash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \strng{editornamehash}{5c88cffc3efd571ed140bf0bd890dbe2}
+      \strng{editorfullhash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pre-trained text encoders have rapidly advanced the state of the art on many NLP tasks. We focus on one such model, BERT, and aim to quantify where linguistic information is captured within the network. We find that the model represents the steps of the traditional NLP pipeline in an interpretable and localizable way, and that the regions responsible for each step appear in the expected sequence: POS tagging, parsing, NER, semantic roles, then coreference. Qualitative analysis reveals that the model can and often does adjust this pipeline dynamically, revising lower-level decisions on the basis of disambiguating information from higher-level representations.}
+      \field{booktitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{{BERT} Rediscovers the Classical {NLP} Pipeline}
+      \field{year}{2019}
+      \field{pages}{4593\bibrangedash 4601}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1452
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1452/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1452/
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2302.13971}{misc}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=a2a13fcd633ec70c55a7f3f4812afdcf}{%
+           family={Touvron},
+           familyi={T\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c641a91d616b6eda08cbbdca7b7eb186}{%
+           family={Lavril},
+           familyi={L\bibinitperiod},
+           given={Thibaut},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a32ece3bc966e7e88747e905158c9a6a}{%
+           family={Izacard},
+           familyi={I\bibinitperiod},
+           given={Gautier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7222f9d76b0fff504f39e7c9c2a526be}{%
+           family={Martinet},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08284515d256b832e9dba10a88af84f4}{%
+           family={Lachaux},
+           familyi={L\bibinitperiod},
+           given={Marie-Anne},
+           giveni={M\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d29ae55d8d993d9f195b3c97bd34f7c}{%
+           family={Lacroix},
+           familyi={L\bibinitperiod},
+           given={Timothée},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0d9a8657c1043f53c54f3f5a6ff305f}{%
+           family={Rozière},
+           familyi={R\bibinitperiod},
+           given={Baptiste},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78a420900f50a8470ad085fb05231bf6}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Naman},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00ce63f55ae2ce6ea638e5f991996584}{%
+           family={Hambro},
+           familyi={H\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5373a3313da61427121b3e9733df1ed2}{%
+           family={Azhar},
+           familyi={A\bibinitperiod},
+           given={Faisal},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a829e25f1d50c3545ed8e99f12890acc}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Aurelien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977d047821122d1c2e7aa855c30c8cf2}{%
+           family={Joulin},
+           familyi={J\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebdea2c3aa9f759075733b20dce6b873}{%
+           family={Grave},
+           familyi={G\bibinitperiod},
+           given={Edouard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56509a94ba6cdaf0c71304d6cf806cee}{%
+           family={Lample},
+           familyi={L\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c237483431fea681283a37adbb23a59f}
+      \strng{fullhash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{bibnamehash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{authorbibnamehash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{authornamehash}{c237483431fea681283a37adbb23a59f}
+      \strng{authorfullhash}{39aeaa201007bcb705db32778f923cb2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LLaMA: Open and Efficient Foundation Language Models}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2302.13971
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2302.13971
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2302.13971
+      \endverb
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Artstein2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fa1dff427d354932033a58782953eace}{%
+           family={Artstein},
+           familyi={A\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a18d390058dfaa1a918b1cb85cde6539}{%
+           family={Poesio},
+           familyi={P\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press - Journals}%
+      }
+      \strng{namehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{fullhash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{bibnamehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{authorbibnamehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{authornamehash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \strng{authorfullhash}{82f1a446ff1ea638d78f1fc8f17cb18f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1530-9312}
+      \field{journaltitle}{Computational Linguistics}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Inter-Coder Agreement for Computational Linguistics}
+      \field{volume}{34}
+      \field{year}{2008}
+      \field{pages}{555\bibrangedash 596}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1162/coli.07-034-r2
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1162/coli.07-034-R2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1162/coli.07-034-R2
+      \endverb
+    \endentry
+    \entry{Bender2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e579c650beb31c286389278140fadd63}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Emily\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=403621f9b668fdee7de73b7d4e740304}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=3147296c99a3f829087becd1a4eaec08}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b8d8d0f2eea7025356be957bed3afa4e}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Joyce},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6c764a5e5416742214465472b4fc6729}{%
+           family={Schluter},
+           familyi={S\bibinitperiod},
+           given={Natalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=32d9493b21c7debeff93b29d5110a8d0}{%
+           family={Tetreault},
+           familyi={T\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b300449a93d89913f19440d391609596}
+      \strng{fullhash}{b300449a93d89913f19440d391609596}
+      \strng{bibnamehash}{b300449a93d89913f19440d391609596}
+      \strng{authorbibnamehash}{b300449a93d89913f19440d391609596}
+      \strng{authornamehash}{b300449a93d89913f19440d391609596}
+      \strng{authorfullhash}{b300449a93d89913f19440d391609596}
+      \strng{editorbibnamehash}{8963a8861ceffaa780e4ca5c344a8653}
+      \strng{editornamehash}{b54aeb64c9e09184a85a84910f037e3c}
+      \strng{editorfullhash}{8963a8861ceffaa780e4ca5c344a8653}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The success of the large neural language models on many NLP tasks is exciting. However, we find that these successes sometimes lead to hype in which these models are being described as {“}understanding{”} language or capturing {“}meaning{”}. In this position paper, we argue that a system trained only on form has a priori no way to learn meaning. In keeping with the ACL 2020 theme of {“}Taking Stock of Where We`ve Been and Where We`re Going{”}, we argue that a clear understanding of the distinction between form and meaning will help guide the field towards better science around natural language understanding.}
+      \field{booktitle}{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{Climbing towards {NLU}: {On} Meaning, Form, and Understanding in the Age of Data}
+      \field{year}{2020}
+      \field{pages}{5185\bibrangedash 5198}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2020.acl-main.463
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2020.acl-main.463/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2020.acl-main.463/
+      \endverb
+    \endentry
+    \entry{cattell1971abilities}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9435ec5e5f411b856189b7f3cd9698f}{%
+           family={Cattell},
+           familyi={C\bibinitperiod},
+           given={R.B.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Houghton Mifflin}%
+      }
+      \strng{namehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{fullhash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{bibnamehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{authorbibnamehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{authornamehash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \strng{authorfullhash}{b9435ec5e5f411b856189b7f3cd9698f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780395042755}
+      \field{title}{Abilities: Their Structure, Growth, and Action}
+      \field{year}{1971}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=9dRq2P9SI5QC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=9dRq2P9SI5QC
+      \endverb
+    \endentry
+    \entry{Chomsky1965}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{bibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorbibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authornamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhash}{28167c0b3800bc5cfb686676277005b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Aspects of the theory of syntax}
+      \field{year}{1965}
+    \endentry
+    \entry{Cohen1960}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eaad07ee1c6ef93a9308150f12c3c2eb}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{fullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{bibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorbibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authornamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorfullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-3888}
+      \field{journaltitle}{Educational and Psychological Measurement}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{A Coefficient of Agreement for Nominal Scales}
+      \field{volume}{20}
+      \field{year}{1960}
+      \field{pages}{37\bibrangedash 46}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1177/001316446002000104
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1177/001316446002000104
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1177/001316446002000104
+      \endverb
+    \endentry
+    \entry{davis2015commonsense}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5e313a551f14d86a5958c804b661f644}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=199868cb9a5ee49454615e31ec8cc1ae}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{fullhash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{bibnamehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{authorbibnamehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{authornamehash}{322a44acd2c91ebf809cd2509994a5fe}
+      \strng{authorfullhash}{322a44acd2c91ebf809cd2509994a5fe}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{9}
+      \field{title}{Commonsense reasoning and commonsense knowledge in artificial intelligence}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{pages}{92\bibrangedash 103}
+      \range{pages}{12}
+    \endentry
+    \entry{devlin-etal-2019-bert}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f974925c5c6cca1d67fd604cc9fc9c79}{%
+           family={Burstein},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3aec97177cb69c892f2c8a2d9bc31a10}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b47889ad94571547c92970150485798b}{%
+           family={Solorio},
+           familyi={S\bibinitperiod},
+           given={Thamar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{editorbibnamehash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \strng{editornamehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{editorfullhash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7{\%} (4.6{\%} absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{booktitle}{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}
+      \field{month}{6}
+      \field{title}{{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \field{pages}{4171\bibrangedash 4186}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1423
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N19-1423/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N19-1423/
+      \endverb
+    \endentry
+    \entry{ethayarajh-2019-contextual}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e0326e7704dfc4d1bc0ad89e1192f67}{%
+           family={Ethayarajh},
+           familyi={E\bibinitperiod},
+           given={Kawin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=8db8ce939f6707d15a65c68fb7eb7fce}{%
+           family={Inui},
+           familyi={I\bibinitperiod},
+           given={Kentaro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=78f8ffda028131a2ad3f19fb3e42cdb7}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=800a361562c5521177148c8fa518b0da}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=099b49eba881fb48d8a736fb9873c0e6}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hong Kong, China}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{fullhash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{bibnamehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{authorbibnamehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{authornamehash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{authorfullhash}{5e0326e7704dfc4d1bc0ad89e1192f67}
+      \strng{editorbibnamehash}{6f401db5289f8ba6e23209eef52e0ad3}
+      \strng{editornamehash}{50a493d0885b78a76247a8faab26ce57}
+      \strng{editorfullhash}{6f401db5289f8ba6e23209eef52e0ad3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Replacing static word embeddings with contextualized word representations has yielded significant improvements on many NLP tasks. However, just how contextual are the contextualized representations produced by models such as ELMo and BERT? Are there infinitely many context-specific representations for each word, or are words essentially assigned one of a finite number of word-sense representations? For one, we find that the contextualized representations of all words are not isotropic in any layer of the contextualizing model. While representations of the same word in different contexts still have a greater cosine similarity than those of two different words, this self-similarity is much lower in upper layers. This suggests that upper layers of contextualizing models produce more context-specific representations, much like how upper layers of LSTMs produce more task-specific representations. In all layers of ELMo, BERT, and GPT-2, on average, less than 5{\%} of the variance in a word`s contextualized representations can be explained by a static embedding for that word, providing some justification for the success of contextualized representations.}
+      \field{booktitle}{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}
+      \field{month}{11}
+      \field{title}{How Contextual are Contextualized Word Representations? {C}omparing the Geometry of {BERT}, {ELM}o, and {GPT}-2 Embeddings}
+      \field{year}{2019}
+      \field{pages}{55\bibrangedash 65}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/D19-1006
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/D19-1006/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/D19-1006/
+      \endverb
+    \endentry
+    \entry{Fodor1988}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=99a8aced15864fc92f53f1bb39897f06}{%
+           family={Fodor},
+           familyi={F\bibinitperiod},
+           given={Jerry\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f610e8fce577b44007d2d4c9bdb3686}{%
+           family={Pylyshyn},
+           familyi={P\bibinitperiod},
+           given={Zenon\bibnamedelima W.},
+           giveni={Z\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{fullhash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{bibnamehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{authorbibnamehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{authornamehash}{8ea1073583acb011b401d2b74a54e1ae}
+      \strng{authorfullhash}{8ea1073583acb011b401d2b74a54e1ae}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-0277}
+      \field{journaltitle}{Cognition}
+      \field{month}{3}
+      \field{number}{1–2}
+      \field{title}{Connectionism and cognitive architecture: A critical analysis}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{pages}{3\bibrangedash 71}
+      \range{pages}{69}
+      \verb{doi}
+      \verb 10.1016/0010-0277(88)90031-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/0010-0277(88)90031-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0010-0277(88)90031-5
+      \endverb
+    \endentry
+    \entry{gandikota2024evolution}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5abc0fcabad20c98bf0b3c307124871e}{%
+           family={Gandikota},
+           familyi={G\bibinitperiod},
+           given={Rohit},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c1681f1d7c7e1647445f11886c0431c}{%
+           family={Loftus},
+           familyi={L\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f2e2531201cfbf853f16f668132eaf2}{%
+           family={Philip},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9730f59e004940bddb003a4bdca1a831}{%
+           family={Bompilwar},
+           familyi={B\bibinitperiod},
+           given={Ritik},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b876a384fc4df712a737d153a1a9977}{%
+           family={Rager},
+           familyi={R\bibinitperiod},
+           given={Can},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f0c64e476041d3c0ba3fb4f246f1c565}
+      \strng{fullhash}{3092b77f146214d934d7123581adadc7}
+      \strng{bibnamehash}{3092b77f146214d934d7123581adadc7}
+      \strng{authorbibnamehash}{3092b77f146214d934d7123581adadc7}
+      \strng{authornamehash}{f0c64e476041d3c0ba3fb4f246f1c565}
+      \strng{authorfullhash}{3092b77f146214d934d7123581adadc7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Unpublished manuscript}
+      \field{title}{Evolution of LLM Stages across Model Sizes}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://sidn.baulab.info/evolution/
+      \endverb
+      \verb{url}
+      \verb https://sidn.baulab.info/evolution/
+      \endverb
+    \endentry
+    \entry{Gawin2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4ef016f48ce808a66e5f9ee32df4bf37}{%
+           family={Gawin},
+           familyi={G\bibinitperiod},
+           given={Cole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=941a95702c22662c78c93936faa6d2ce}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yidan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a9721a2ee408f62c28c8648a3c89490}{%
+           family={Kejriwal},
+           familyi={K\bibinitperiod},
+           given={Mayank},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c17a696c673c4ab3a354626be85d505}
+      \strng{fullhash}{cfb27702c19f8907c1f323257f98d780}
+      \strng{bibnamehash}{cfb27702c19f8907c1f323257f98d780}
+      \strng{authorbibnamehash}{cfb27702c19f8907c1f323257f98d780}
+      \strng{authornamehash}{9c17a696c673c4ab3a354626be85d505}
+      \strng{authorfullhash}{cfb27702c19f8907c1f323257f98d780}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{title}{Navigating semantic relations: Challenges for language models in abstract common-sense reasoning}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2502.14086
+      \endverb
+    \endentry
+    \entry{gemmateam2024gemmaopenmodelsbased}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=351c00969359c04c1e107ff4bdd80d9e}{%
+           family={{Gemma Team}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{fullhash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{bibnamehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{authorbibnamehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{authornamehash}{351c00969359c04c1e107ff4bdd80d9e}
+      \strng{authorfullhash}{351c00969359c04c1e107ff4bdd80d9e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Gemma: Open Models Based on Gemini Research and Technology}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2403.08295
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.08295
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.08295
+      \endverb
+    \endentry
+    \entry{Gentner1983}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9285e83d141663a046a452dd06ae7ae3}{%
+           family={Gentner},
+           familyi={G\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{fullhash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{bibnamehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{authorbibnamehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{authornamehash}{9285e83d141663a046a452dd06ae7ae3}
+      \strng{authorfullhash}{9285e83d141663a046a452dd06ae7ae3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0364-0213}
+      \field{journaltitle}{Cognitive Science}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Structure-mapping: A theoretical framework for analogy}
+      \field{volume}{7}
+      \field{year}{1983}
+      \field{pages}{155\bibrangedash 170}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/s0364-0213(83)80009-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0364-0213(83)80009-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0364-0213(83)80009-3
+      \endverb
+    \endentry
+    \entry{gentner2005relational}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=538c12fad2d6e4061b407ee4fa47a679}{%
+           family={Gentner},
+           familyi={G\bibinitperiod},
+           given={Dedre},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30b7eb0704688319b2b8c270f89703ae}{%
+           family={Kurtz},
+           familyi={K\bibinitperiod},
+           given={Kenneth\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=20cdae14277110f418e922135a24e41b}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=87cb9ccdd0b3dcf2d2788b400904ad54}{%
+           family={Goldstone},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=25187212ed0c3e9ff80f24c06872dc4a}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=77ad13cfa843dd66be07f514c1375b83}{%
+           family={Markman},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ac4fcfcf31090531b298ad40de8b31e9}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{7ff86cb63593288e82296507ec093297}
+      \strng{fullhash}{7ff86cb63593288e82296507ec093297}
+      \strng{bibnamehash}{7ff86cb63593288e82296507ec093297}
+      \strng{authorbibnamehash}{7ff86cb63593288e82296507ec093297}
+      \strng{authornamehash}{7ff86cb63593288e82296507ec093297}
+      \strng{authorfullhash}{7ff86cb63593288e82296507ec093297}
+      \strng{editorbibnamehash}{728624f109b10ab8ff93dabf0cf635a2}
+      \strng{editornamehash}{0340256d433f0067d4313b52db1b2f84}
+      \strng{editorfullhash}{728624f109b10ab8ff93dabf0cf635a2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Categorization Inside and Outside the Laboratory: Essays in Honor of Douglas L. Medin}
+      \field{title}{Relational Categories}
+      \field{year}{2005}
+      \field{pages}{151\bibrangedash 175}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1037/11156-009
+      \endverb
+    \endentry
+    \entry{Kaufer1979}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46c36e5800ef0eefbf561b3d8f702c72}{%
+           family={Kaufer},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{fullhash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{bibnamehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{authorbibnamehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{authornamehash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \strng{authorfullhash}{46c36e5800ef0eefbf561b3d8f702c72}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-7441}
+      \field{journaltitle}{Philosophy of the Social Sciences}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{The Competence/Performance Distinction in Linguistic Theory}
+      \field{volume}{9}
+      \field{year}{1979}
+      \field{pages}{257\bibrangedash 275}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1177/004839317900900301
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1177/004839317900900301
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1177/004839317900900301
+      \endverb
+    \endentry
+    \entry{Kriegeskorte2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d994ee9a00ec4dcc000b2c91ac22ede1}{%
+           family={Kriegeskorte},
+           familyi={K\bibinitperiod},
+           given={Nikolaus},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=424a7b33fb1f184b0d10a7da6ff45275}{%
+           family={Kievit},
+           familyi={K\bibinitperiod},
+           given={Rogier\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{63090ae820256e711d78f542ef85601c}
+      \strng{fullhash}{63090ae820256e711d78f542ef85601c}
+      \strng{bibnamehash}{63090ae820256e711d78f542ef85601c}
+      \strng{authorbibnamehash}{63090ae820256e711d78f542ef85601c}
+      \strng{authornamehash}{63090ae820256e711d78f542ef85601c}
+      \strng{authorfullhash}{63090ae820256e711d78f542ef85601c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1364-6613}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Representational geometry: integrating cognition, computation, and the brain}
+      \field{volume}{17}
+      \field{year}{2013}
+      \field{pages}{401\bibrangedash 412}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.tics.2013.06.007
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.tics.2013.06.007
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.tics.2013.06.007
+      \endverb
+    \endentry
+    \entry{Kriegeskorte2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d994ee9a00ec4dcc000b2c91ac22ede1}{%
+           family={Kriegeskorte},
+           familyi={K\bibinitperiod},
+           given={Nikolaus},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebc8ad42c4e4036a7cb54e92bdfb89cd}{%
+           family={Mur},
+           familyi={M\bibinitperiod},
+           given={Marieke},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e44f57cab215f7774b57b1f6b6cb620}{%
+           family={Bandettini},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{9ff161159b5e1d85cd45ef2527bc2478}
+      \strng{fullhash}{257d85d2bf04cad273507d380ac5b0b5}
+      \strng{bibnamehash}{257d85d2bf04cad273507d380ac5b0b5}
+      \strng{authorbibnamehash}{257d85d2bf04cad273507d380ac5b0b5}
+      \strng{authornamehash}{9ff161159b5e1d85cd45ef2527bc2478}
+      \strng{authorfullhash}{257d85d2bf04cad273507d380ac5b0b5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1662-5137}
+      \field{journaltitle}{Frontiers in Systems Neuroscience}
+      \field{title}{Representational similarity analysis – connecting the branches of systems neuroscience}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.3389/neuro.06.004.2008
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3389/neuro.06.004.2008
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3389/neuro.06.004.2008
+      \endverb
+    \endentry
+    \entry{Laakso2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f7643cc86187bcca34041700f42f73d5}{%
+           family={Laakso},
+           familyi={L\bibinitperiod},
+           given={Aarre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2c816b9cde48822a4674168b0e134e2}{%
+           family={Cottrell},
+           familyi={C\bibinitperiod},
+           given={Garrison},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{fullhash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{bibnamehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{authorbibnamehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{authornamehash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \strng{authorfullhash}{3c212c3a9c1944a408f1aa819cb5ff5b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1465-394X}
+      \field{journaltitle}{Philosophical Psychology}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Content and cluster analysis: Assessing representational similarity in neural systems}
+      \field{volume}{13}
+      \field{year}{2000}
+      \field{pages}{47\bibrangedash 76}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1080/09515080050002726
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/09515080050002726
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/09515080050002726
+      \endverb
+    \endentry
+    \entry{Lake2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8449df2d22be789ac9cc32444c31921e}{%
+           family={Lake},
+           familyi={L\bibinitperiod},
+           given={Brenden\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e226fb1da66be94e73828778e6eb8af8}{%
+           family={Ullman},
+           familyi={U\bibinitperiod},
+           given={Tomer\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c7ff02e1f8b4c4aa7bfddece14f23d2}{%
+           family={Tenenbaum},
+           familyi={T\bibinitperiod},
+           given={Joshua\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=947b5ff2e5969eafe5136b3e017c5c01}{%
+           family={Gershman},
+           familyi={G\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eff7bbe99dbb8df47713e2e6698163af}
+      \strng{fullhash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \strng{bibnamehash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \strng{authorbibnamehash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \strng{authornamehash}{eff7bbe99dbb8df47713e2e6698163af}
+      \strng{authorfullhash}{f3f65c1f5ec76205ed74a281c8ea6f9f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{title}{Building machines that learn and think like people}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{e253}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/S0140525X16001837
+      \endverb
+    \endentry
+    \entry{liu-etal-2019-linguistic}{inbook}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ad8b44fb7f6f1b83fe7fb3b875afaf99}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Nelson\bibnamedelima F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6adacaf607ef85a7b55da44661636929}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b1e0145098271245102c2c35a46ffe4}{%
+           family={Belinkov},
+           familyi={B\bibinitperiod},
+           given={Yonatan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=711e37ce316a72d79bd008a205513ef0}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76caee508bed7d0995f7c21cc5e6208c}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Noah\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f974925c5c6cca1d67fd604cc9fc9c79}{%
+           family={Burstein},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3aec97177cb69c892f2c8a2d9bc31a10}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b47889ad94571547c92970150485798b}{%
+           family={Solorio},
+           familyi={S\bibinitperiod},
+           given={Thamar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{aafa2d245e70b7be840882cd4df991be}
+      \strng{fullhash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{bibnamehash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{authorbibnamehash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{authornamehash}{aafa2d245e70b7be840882cd4df991be}
+      \strng{authorfullhash}{d1ac7fcb8925742ee1b7898588bd231a}
+      \strng{editorbibnamehash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \strng{editornamehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{editorfullhash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.}
+      \field{booktitle}{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}
+      \field{month}{6}
+      \field{title}{Linguistic Knowledge and Transferability of Contextual Representations}
+      \field{year}{2019}
+      \field{pages}{1073\bibrangedash 1094}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1112
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N19-1112/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N19-1112/
+      \endverb
+    \endentry
+    \entry{McCoy2019}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e12de261223703598382d4e3c6de3d6d}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca6d98b9aedc0227fb0ef517ebdc65e}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={Ellie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11e9c967573c1c8a0604dda20cf8a914}{%
+           family={Linzen},
+           familyi={L\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=088f1cd997c8227387a06e1cb2dc1538}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852889328d57da2df5bccea3165205d0}{%
+           family={Traum},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98a908240c23e42cd08857cd67e53cff}{%
+           family={Màrquez},
+           familyi={M\bibinitperiod},
+           given={Lluís},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{8718e52a026663a3a6f51f37dd37cc39}
+      \strng{fullhash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{bibnamehash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{authorbibnamehash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{authornamehash}{8718e52a026663a3a6f51f37dd37cc39}
+      \strng{authorfullhash}{a42628fd7558de3d39696fddbaa72635}
+      \strng{editorbibnamehash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \strng{editornamehash}{5c88cffc3efd571ed140bf0bd890dbe2}
+      \strng{editorfullhash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A machine learning system can score well on a given test set by relying on heuristics that are effective for frequent example types but break down in more challenging cases. We study this issue within natural language inference (NLI), the task of determining whether one sentence entails another. We hypothesize that statistical NLI models may adopt three fallible syntactic heuristics: the lexical overlap heuristic, the subsequence heuristic, and the constituent heuristic. To determine whether models have adopted these heuristics, we introduce a controlled evaluation set called HANS (Heuristic Analysis for NLI Systems), which contains many examples where the heuristics fail. We find that models trained on MNLI, including BERT, a state-of-the-art model, perform very poorly on HANS, suggesting that they have indeed adopted these heuristics. We conclude that there is substantial room for improvement in NLI systems, and that the HANS dataset can motivate and measure progress in this area.}
+      \field{booktitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference}
+      \field{year}{2019}
+      \field{pages}{3428\bibrangedash 3448}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1334
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1334/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1334/
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.1802.03426}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3edd0ee6ca72eca5c532b9c1fcee621}{%
+           family={McInnes},
+           familyi={M\bibinitperiod},
+           given={Leland},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a653f5c3174b96798d6336399101032}{%
+           family={Healy},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=542b470ec223367aba58d9d095e4e340}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{3341d13f7f8011d4c09baee830a3a666}
+      \strng{fullhash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{bibnamehash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{authorbibnamehash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{authornamehash}{3341d13f7f8011d4c09baee830a3a666}
+      \strng{authorfullhash}{9bc0813b09f8460b9f60233db84de773}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1802.03426
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1802.03426
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1802.03426
+      \endverb
+      \keyw{Machine Learning (stat.ML),Computational Geometry (cs.CG),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{merchant-etal-2020-happens}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c84156c722387f5bf273d87c679668f2}{%
+           family={Merchant},
+           familyi={M\bibinitperiod},
+           given={Amil},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8fcddd71bb34da2ba9ba197dc5b432a}{%
+           family={Rahimtoroghi},
+           familyi={R\bibinitperiod},
+           given={Elahe},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca6d98b9aedc0227fb0ef517ebdc65e}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={Ellie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc9233c01b73655be13b8add3ca49862}{%
+           family={Tenney},
+           familyi={T\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=499ff9eded0aaca620050881dee7df73}{%
+           family={Alishahi},
+           familyi={A\bibinitperiod},
+           given={Afra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b1e0145098271245102c2c35a46ffe4}{%
+           family={Belinkov},
+           familyi={B\bibinitperiod},
+           given={Yonatan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e888801ffefccb63cfb89e7629b5dff4}{%
+           family={Chrupa{ł}a},
+           familyi={C\bibinitperiod},
+           given={Grzegorz},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0aab99f9623dcafc949b52e6684d9156}{%
+           family={Hupkes},
+           familyi={H\bibinitperiod},
+           given={Dieuwke},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4d9c3b5b75abff3e8df33bd05ed75d32}{%
+           family={Pinter},
+           familyi={P\bibinitperiod},
+           given={Yuval},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a90019133d8f936f4dd83e660602362b}{%
+           family={Sajjad},
+           familyi={S\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{c99414119ff0fa2c9b0fdf3eeac73b64}
+      \strng{fullhash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{bibnamehash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{authorbibnamehash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{authornamehash}{c99414119ff0fa2c9b0fdf3eeac73b64}
+      \strng{authorfullhash}{ab96e2e9abd4bfefc965c2de5fbfff79}
+      \strng{editorbibnamehash}{40b24a1dcba680ede4b9b82f5c2090e8}
+      \strng{editornamehash}{7531b0db3f6fbbc79cfd7722a61df7aa}
+      \strng{editorfullhash}{40b24a1dcba680ede4b9b82f5c2090e8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While much recent work has examined how linguistic information is encoded in pre-trained sentence representations, comparatively little is understood about how these models change when adapted to solve downstream tasks. Using a suite of analysis techniques{---}supervised probing, unsupervised similarity analysis, and layer-based ablations{---}we investigate how fine-tuning affects the representations of the BERT model. We find that while fine-tuning necessarily makes some significant changes, there is no catastrophic forgetting of linguistic phenomena. We instead find that fine-tuning is a conservative process that primarily affects the top layers of BERT, albeit with noteworthy variation across tasks. In particular, dependency parsing reconfigures most of the model, whereas SQuAD and MNLI involve much shallower processing. Finally, we also find that fine-tuning has a weaker effect on representations of out-of-domain sentences, suggesting room for improvement in model generalization.}
+      \field{booktitle}{Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP}
+      \field{month}{11}
+      \field{title}{What Happens To {BERT} Embeddings During Fine-tuning?}
+      \field{year}{2020}
+      \field{pages}{33\bibrangedash 44}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.18653/v1/2020.blackboxnlp-1.4
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2020.blackboxnlp-1.4/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2020.blackboxnlp-1.4/
+      \endverb
+    \endentry
+    \entry{Mikolov2013}{inbook}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84d9f354fa0b45dae996f27dad2c6607}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg\bibnamedelima S},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62f954323339abeba6c6a240e9d2855b}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=270087258d6a002033f05032fbdf6fad}{%
+           family={Burges},
+           familyi={B\bibinitperiod},
+           given={C.J.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bbfb0f3936c83b7b099561e6f0e32ef3}{%
+           family={Bottou},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=064d84a432787740019dc765d9115718}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b8fd0c0f416ef8a8bbb50286418e9df8}{%
+           family={Ghahramani},
+           familyi={G\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ad5ed31dbb8d37755c6cb48bedfdfe1d}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={K.Q.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{fullhash}{fde8281f0504852db8650bb0736061b6}
+      \strng{bibnamehash}{fde8281f0504852db8650bb0736061b6}
+      \strng{authorbibnamehash}{fde8281f0504852db8650bb0736061b6}
+      \strng{authornamehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{authorfullhash}{fde8281f0504852db8650bb0736061b6}
+      \strng{editorbibnamehash}{c967e53f70519e0fc0a0563c0286a83a}
+      \strng{editornamehash}{0de7e9cd99bb93b3873173bbb85ab3d7}
+      \strng{editorfullhash}{c967e53f70519e0fc0a0563c0286a83a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Distributed Representations of Words and Phrases and their Compositionality}
+      \field{volume}{26}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf
+      \endverb
+    \endentry
+    \entry{Niven2019}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=14f73c5d4c662e6c0ae2cb3c95d807ca}{%
+           family={Niven},
+           familyi={N\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eee47ff5c2dd56d95e088afcbabd4cbe}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Hung-Yu},
+           giveni={H\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=088f1cd997c8227387a06e1cb2dc1538}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852889328d57da2df5bccea3165205d0}{%
+           family={Traum},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98a908240c23e42cd08857cd67e53cff}{%
+           family={Màrquez},
+           familyi={M\bibinitperiod},
+           given={Lluís},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{fullhash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{bibnamehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{authorbibnamehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{authornamehash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{authorfullhash}{5e60f70c5c94dcb6bb3f7cb389ce9d1b}
+      \strng{editorbibnamehash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \strng{editornamehash}{5c88cffc3efd571ed140bf0bd890dbe2}
+      \strng{editorfullhash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We are surprised to find that BERT`s peak performance of 77{\%} on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work.}
+      \field{booktitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{Probing Neural Network Comprehension of Natural Language Arguments}
+      \field{year}{2019}
+      \field{pages}{4658\bibrangedash 4664}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1459
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1459/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1459/
+      \endverb
+    \endentry
+    \entry{Spearman1904}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe74eb0f9a2d4cd74c2a1f1dcf7caf85}{%
+           family={Spearman},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Illinois Press}%
+      }
+      \strng{namehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{fullhash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{bibnamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authorbibnamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authornamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authorfullhash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9556}
+      \field{journaltitle}{The American Journal of Psychology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The Proof and Measurement of Association between Two Things}
+      \field{volume}{15}
+      \field{year}{1904}
+      \field{pages}{72}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1412159
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.2307/1412159
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.2307/1412159
+      \endverb
+    \endentry
+    \entry{speer2017conceptnet}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4d757257b940c16e71cac823afe9b2e3}{%
+           family={Speer},
+           familyi={S\bibinitperiod},
+           given={Robyn},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b3c1fd1a7f952fbf0ec71e46d60d749}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17886ebb8b9a8fb21c809ebeda86995c}{%
+           family={Havasi},
+           familyi={H\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef479ec1c6fefd1b9b6f06124096951d}
+      \strng{fullhash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \strng{bibnamehash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \strng{authorbibnamehash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \strng{authornamehash}{ef479ec1c6fefd1b9b6f06124096951d}
+      \strng{authorfullhash}{c42dca8bccfa26ad07dd2768ca2916d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the AAAI conference on artificial intelligence}
+      \field{number}{1}
+      \field{title}{Conceptnet 5.5: An open multilingual graph of general knowledge}
+      \field{volume}{31}
+      \field{year}{2017}
+    \endentry
+    \entry{tenney-etal-2019-bert}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dc9233c01b73655be13b8add3ca49862}{%
+           family={Tenney},
+           familyi={T\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8019d13f15afa35450262916b4cec44}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Dipanjan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca6d98b9aedc0227fb0ef517ebdc65e}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={Ellie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=088f1cd997c8227387a06e1cb2dc1538}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852889328d57da2df5bccea3165205d0}{%
+           family={Traum},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98a908240c23e42cd08857cd67e53cff}{%
+           family={Màrquez},
+           familyi={M\bibinitperiod},
+           given={Lluís},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{153894917fa73d131aefcda9fab828ce}
+      \strng{fullhash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{bibnamehash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{authorbibnamehash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{authornamehash}{153894917fa73d131aefcda9fab828ce}
+      \strng{authorfullhash}{88f66e05133409c156f3ed5d94fd44b9}
+      \strng{editorbibnamehash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \strng{editornamehash}{5c88cffc3efd571ed140bf0bd890dbe2}
+      \strng{editorfullhash}{5d0d019d65674f287aa73e6f7f5b6291}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pre-trained text encoders have rapidly advanced the state of the art on many NLP tasks. We focus on one such model, BERT, and aim to quantify where linguistic information is captured within the network. We find that the model represents the steps of the traditional NLP pipeline in an interpretable and localizable way, and that the regions responsible for each step appear in the expected sequence: POS tagging, parsing, NER, semantic roles, then coreference. Qualitative analysis reveals that the model can and often does adjust this pipeline dynamically, revising lower-level decisions on the basis of disambiguating information from higher-level representations.}
+      \field{booktitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{{BERT} Rediscovers the Classical {NLP} Pipeline}
+      \field{year}{2019}
+      \field{pages}{4593\bibrangedash 4601}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1452
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1452/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1452/
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2302.13971}{misc}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=a2a13fcd633ec70c55a7f3f4812afdcf}{%
+           family={Touvron},
+           familyi={T\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c641a91d616b6eda08cbbdca7b7eb186}{%
+           family={Lavril},
+           familyi={L\bibinitperiod},
+           given={Thibaut},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a32ece3bc966e7e88747e905158c9a6a}{%
+           family={Izacard},
+           familyi={I\bibinitperiod},
+           given={Gautier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7222f9d76b0fff504f39e7c9c2a526be}{%
+           family={Martinet},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08284515d256b832e9dba10a88af84f4}{%
+           family={Lachaux},
+           familyi={L\bibinitperiod},
+           given={Marie-Anne},
+           giveni={M\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d29ae55d8d993d9f195b3c97bd34f7c}{%
+           family={Lacroix},
+           familyi={L\bibinitperiod},
+           given={Timothée},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0d9a8657c1043f53c54f3f5a6ff305f}{%
+           family={Rozière},
+           familyi={R\bibinitperiod},
+           given={Baptiste},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78a420900f50a8470ad085fb05231bf6}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Naman},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00ce63f55ae2ce6ea638e5f991996584}{%
+           family={Hambro},
+           familyi={H\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5373a3313da61427121b3e9733df1ed2}{%
+           family={Azhar},
+           familyi={A\bibinitperiod},
+           given={Faisal},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a829e25f1d50c3545ed8e99f12890acc}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Aurelien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977d047821122d1c2e7aa855c30c8cf2}{%
+           family={Joulin},
+           familyi={J\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebdea2c3aa9f759075733b20dce6b873}{%
+           family={Grave},
+           familyi={G\bibinitperiod},
+           given={Edouard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56509a94ba6cdaf0c71304d6cf806cee}{%
+           family={Lample},
+           familyi={L\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c237483431fea681283a37adbb23a59f}
+      \strng{fullhash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{bibnamehash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{authorbibnamehash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{authornamehash}{c237483431fea681283a37adbb23a59f}
+      \strng{authorfullhash}{39aeaa201007bcb705db32778f923cb2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LLaMA: Open and Efficient Foundation Language Models}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2302.13971
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2302.13971
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2302.13971
+      \endverb
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
