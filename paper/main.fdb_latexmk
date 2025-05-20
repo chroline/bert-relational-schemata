@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1747712548 "main.bcf" "main.bbl" "main" 1747712618 0
+["biber main"] 1747712548 "main.bcf" "main.bbl" "main" 1747712850 0
   "./bibliography.bib" 1747703938 23517 a97c2e56fd2339348b99f2fe208b3fc8 ""
-  "main.bcf" 1747712618 128501 c16817a78bf324067d01432772977e84 "pdflatex"
+  "main.bcf" 1747712850 128501 c16817a78bf324067d01432772977e84 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1747712616 "/Users/colegawin/Documents/ling 486 final project/paper/main.tex" "main.pdf" "main" 1747712618 0
-  "/Users/colegawin/Documents/ling 486 final project/paper/main.tex" 1747712614 42377 9b014a0d0b625b17b5ce467b6429b321 ""
+["pdflatex"] 1747712848 "/Users/colegawin/Documents/ling 486 final project/paper/main.tex" "main.pdf" "main" 1747712850 0
+  "/Users/colegawin/Documents/ling 486 final project/paper/main.tex" 1747712845 42362 8f4ad14edb45aa2bc8da7422a76c84f7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -254,11 +254,11 @@
   "cf-control.png" 1747636228 30652 140895955e92588c1e85e300f32c9cb9 ""
   "cf-finetuned.png" 1747519243 25293 2c4abaed24b0896d863169cef189ff7f ""
   "cf-pretrained.png" 1747519458 29661 a7b36d7e2840b43da249c6981acfbc13 ""
-  "main.aux" 1747712618 16721 045bcb9e0b1abd7c61bc0be3527bfd4e "pdflatex"
+  "main.aux" 1747712850 16721 3f27a335fca1320a0e7f03afca86b4be "pdflatex"
   "main.bbl" 1747712551 148262 6ce5e1215fea7910c65e2b251fef8098 "biber main"
-  "main.out" 1747712618 5007 5a1cb21527b1564352130971d3dff041 "pdflatex"
-  "main.run.xml" 1747712618 2429 933f956c869fa4e7bfeee9544fd9c579 "pdflatex"
-  "main.tex" 1747712614 42377 9b014a0d0b625b17b5ce467b6429b321 ""
+  "main.out" 1747712850 5007 5a1cb21527b1564352130971d3dff041 "pdflatex"
+  "main.run.xml" 1747712850 2429 933f956c869fa4e7bfeee9544fd9c579 "pdflatex"
+  "main.tex" 1747712845 42362 8f4ad14edb45aa2bc8da7422a76c84f7 ""
   "rsa-finetuned-layerwise.png" 1747521238 30028 2dc8c8d8d91b3e3ad75eb7c1c4b10751 ""
   "umap-control.png" 1747636236 186385 57c3145776b5a30eeb15dea48104d486 ""
   "umap-finetuned.png" 1747521414 45710 7327763d2c763f70c1dbf824f145a1e6 ""

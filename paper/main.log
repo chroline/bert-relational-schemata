@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  19 MAY 2025 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  19 MAY 2025 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,24 +943,24 @@ Package csquotes Info: Redefining alias 'default' -> 'american'.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1021,7 +1021,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 42.
  (./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1074,45 +1074,45 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 51.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2] [3]
 Underfull \vbox (badness 4967) has occurred while \output is active []
 
  [4]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 88.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 81.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 88.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 81.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 88.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 81.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 88.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 81.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 88.
+(Font)              <12> on input line 81.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 81.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 88.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+(Font)              <6> on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5] [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
@@ -1120,11 +1120,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7] [8] [9] [10]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 152.
+(Font)              <10> on input line 145.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 152.
+(Font)              <7> on input line 145.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 152.
+(Font)              <5> on input line 145.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1135,7 +1135,7 @@ Underfull \vbox (badness 4608) has occurred while \output is active []
 <rsa-finetuned-layerwise.png, id=244, 570.933pt x 354.123pt>
 File: rsa-finetuned-layerwise.png Graphic file (type png)
 <use rsa-finetuned-layerwise.png>
-Package pdftex.def Info: rsa-finetuned-layerwise.png  used on input line 212.
+Package pdftex.def Info: rsa-finetuned-layerwise.png  used on input line 205.
 (pdftex.def)             Requested size: 469.75502pt x 291.37695pt.
 
 
@@ -1145,12 +1145,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <umap-pretrained.png, id=255, 455.301pt x 339.669pt>
 File: umap-pretrained.png Graphic file (type png)
 <use umap-pretrained.png>
-Package pdftex.def Info: umap-pretrained.png  used on input line 228.
+Package pdftex.def Info: umap-pretrained.png  used on input line 221.
 (pdftex.def)             Requested size: 211.38832pt x 157.70085pt.
 <umap-finetuned.png, id=256, 455.301pt x 339.669pt>
 File: umap-finetuned.png Graphic file (type png)
 <use umap-finetuned.png>
-Package pdftex.def Info: umap-finetuned.png  used on input line 233.
+Package pdftex.def Info: umap-finetuned.png  used on input line 226.
 (pdftex.def)             Requested size: 211.38832pt x 157.70085pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1159,12 +1159,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <cf-control.png, id=273, 391.7034pt x 339.669pt>
 File: cf-control.png Graphic file (type png)
 <use cf-control.png>
-Package pdftex.def Info: cf-control.png  used on input line 254.
+Package pdftex.def Info: cf-control.png  used on input line 247.
 (pdftex.def)             Requested size: 211.38832pt x 183.30968pt.
 <umap-control.png, id=274, 455.301pt x 339.669pt>
 File: umap-control.png Graphic file (type png)
 <use umap-control.png>
-Package pdftex.def Info: umap-control.png  used on input line 259.
+Package pdftex.def Info: umap-control.png  used on input line 252.
 (pdftex.def)             Requested size: 211.38832pt x 157.70085pt.
 
 Underfull \vbox (badness 3428) has occurred while \output is active []
@@ -1181,12 +1181,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <cf-pretrained.png, id=355, 391.7034pt x 339.669pt>
 File: cf-pretrained.png Graphic file (type png)
 <use cf-pretrained.png>
-Package pdftex.def Info: cf-pretrained.png  used on input line 339.
+Package pdftex.def Info: cf-pretrained.png  used on input line 332.
 (pdftex.def)             Requested size: 211.38832pt x 183.30968pt.
 <cf-finetuned.png, id=356, 391.7034pt x 339.669pt>
 File: cf-finetuned.png Graphic file (type png)
 <use cf-finetuned.png>
-Package pdftex.def Info: cf-finetuned.png  used on input line 345.
+Package pdftex.def Info: cf-finetuned.png  used on input line 338.
 (pdftex.def)             Requested size: 211.38832pt x 183.30968pt.
  AED endfloat: Processing end Figures and Tables [26
 
@@ -1204,9 +1204,9 @@ Here is how much of TeX's memory you used:
  53542 multiletter control sequences out of 15000+600000
  586228 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,103p,1669b,5231s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,103p,1724b,5231s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (27 pages, 734483 bytes).
+Output written on main.pdf (27 pages, 734479 bytes).
 PDF statistics:
  452 PDF objects out of 1000 (max. 8388607)
  378 compressed objects within 4 object streams
